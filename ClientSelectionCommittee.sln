@@ -5,21 +5,37 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSelectionCommittee", "ClientSelectionCommittee\ClientSelectionCommittee.csproj", "{464FF0BE-D4C2-41FE-9C3B-9C451B2BA3BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnrolleeForms", "..\..\..\Новая папка\EnrolleeForms\EnrolleeForms\EnrolleeForms.csproj", "{077F59FF-37BF-4744-9FD3-2D98B197DC8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{464FF0BE-D4C2-41FE-9C3B-9C451B2BA3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{464FF0BE-D4C2-41FE-9C3B-9C451B2BA3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464FF0BE-D4C2-41FE-9C3B-9C451B2BA3BB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{464FF0BE-D4C2-41FE-9C3B-9C451B2BA3BB}.Debug|x86.Build.0 = Debug|Any CPU
 		{464FF0BE-D4C2-41FE-9C3B-9C451B2BA3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{464FF0BE-D4C2-41FE-9C3B-9C451B2BA3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464FF0BE-D4C2-41FE-9C3B-9C451B2BA3BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{464FF0BE-D4C2-41FE-9C3B-9C451B2BA3BB}.Release|x86.Build.0 = Release|Any CPU
+		{077F59FF-37BF-4744-9FD3-2D98B197DC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077F59FF-37BF-4744-9FD3-2D98B197DC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077F59FF-37BF-4744-9FD3-2D98B197DC8F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{077F59FF-37BF-4744-9FD3-2D98B197DC8F}.Debug|x86.Build.0 = Debug|Any CPU
+		{077F59FF-37BF-4744-9FD3-2D98B197DC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077F59FF-37BF-4744-9FD3-2D98B197DC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077F59FF-37BF-4744-9FD3-2D98B197DC8F}.Release|x86.ActiveCfg = Release|Any CPU
+		{077F59FF-37BF-4744-9FD3-2D98B197DC8F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AC385376-E238-4A9D-AEF9-8CCF4B7A0DBF}
+		SolutionGuid = {A82E2F1D-2A3F-4399-B365-2DC7DEDAE3AB}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,10 @@
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\bin\Debug\ClientSelectionCommittee.exe.config
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\bin\Debug\ClientSelectionCommittee.exe
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\bin\Debug\ClientSelectionCommittee.pdb
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.csprojAssemblyReference.cache
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.Properties.Resources.resources
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.csproj.GenerateResource.cache
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.csproj.CoreCompileInputs.cache
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.exe
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.pdb
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.MainForm.resources
