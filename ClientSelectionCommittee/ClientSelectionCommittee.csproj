@@ -46,28 +46,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GetTrainingDirectionSend.cs" />
-    <Compile Include="LogIn.cs" />
-    <Compile Include="LoginForm.cs">
+    <Compile Include="EnrolleeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="EnrolleeForm.Designer.cs">
+      <DependentUpon>EnrolleeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Requests\GetTrainingDirectionSend.cs" />
+    <Compile Include="Requests\LogIn.cs" />
+    <Compile Include="Form\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Form\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Form\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TrainingDirectionSend.cs" />
-    <Compile Include="UserSend.cs" />
-    <EmbeddedResource Include="LoginForm.resx">
+    <Compile Include="Model\TrainingDirectionSend.cs" />
+    <Compile Include="Model\UserSend.cs" />
+    <EmbeddedResource Include="EnrolleeForm.resx">
+      <DependentUpon>EnrolleeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Form\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
