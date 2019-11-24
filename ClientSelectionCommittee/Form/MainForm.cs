@@ -39,7 +39,7 @@ namespace ClientSelectionCommittee
             }         
         }
 
-        // запрлнение таблицы
+        // заполн таблицы
         private void DrawData()
         {
             foreach (TrainingDirectionSend t in trainingDirectionSends)

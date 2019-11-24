@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<ArrayOfEnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EnrolleeSend>
+    <Id>17</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-22T15:05:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Антон</EnrolleeFirstname>
+    <EnrolleeLastname>Савчук</EnrolleeLastname>
+    <EnrolleePatronymic>Антонович</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2000-02-02T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3005411</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>34234232453</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Минским УВД №1</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2016-02-04T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2026-04-02T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Минская об., г. Дзержинск, ул. Минская 34, кв.7</EnrolleeAddress>
+    <EnrolleePostcode>233411</EnrolleePostcode>
+    <EnrolleePhoneNumber>+342342341232</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ №2</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г.Дзержинск, ул. Радужная 3</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>0521235413</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>54</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>32</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>45</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>76</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>antobigboss@mail.ru</EnrolleeEmail>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>21</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-22T15:52:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Михаил</EnrolleeFirstname>
+    <EnrolleeLastname>Бодзевич</EnrolleeLastname>
+    <EnrolleePatronymic>Степанович</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2001-08-06T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3004310</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>34945543211</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Минским УВД №2</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2014-02-20T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2024-02-20T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Минская об, г.Минск, ул. Карла Маркса 23, кв.2</EnrolleeAddress>
+    <EnrolleePostcode>220015</EnrolleePostcode>
+    <EnrolleePhoneNumber>+65765434532</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>Гимназия №1</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г.Минск, ул. Строителей 5</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>5472354688</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>96</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>50</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>80</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>35</EnrolleeScoreOfTheThirdEntranceTest>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>23</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-23T00:00:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Алёна</EnrolleeFirstname>
+    <EnrolleeLastname>Богатко</EnrolleeLastname>
+    <EnrolleePatronymic>Сергеевна</EnrolleePatronymic>
+    <EnrolleeSex>женский</EnrolleeSex>
+    <EnrolleeDateOfBirth>2001-12-23T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>4321234</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>45323425245</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Минским УВД №1</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2016-08-25T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2026-08-25T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Минская об., г.Минск, ул. Морская 33, кв 33</EnrolleeAddress>
+    <EnrolleePostcode>220015</EnrolleePostcode>
+    <EnrolleePhoneNumber>+375299912233</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>Гимназия №1</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г.Минск, ул.Строителей 5</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>547354682</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>94</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>82</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>78</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>83</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>lovecat2@gmail.com</EnrolleeEmail>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>26</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-23T15:55:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Инна</EnrolleeFirstname>
+    <EnrolleeLastname>Сачковская</EnrolleeLastname>
+    <EnrolleePatronymic>Александровна</EnrolleePatronymic>
+    <EnrolleeSex>женский</EnrolleeSex>
+    <EnrolleeDateOfBirth>2000-12-20T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>2221345</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>34878956521</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Гродненским УВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2015-02-03T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2025-02-03T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Гродненская об., г.Гродно, ул. Гагарина 34, кв.65</EnrolleeAddress>
+    <EnrolleePostcode>215359</EnrolleePostcode>
+    <EnrolleePhoneNumber>+343453556525</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ №4</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г.Гродно ул.Горная 3</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>340045064</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>88</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>80</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>70</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>80</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>missworld2000@mail.ru</EnrolleeEmail>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>28</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-23T15:57:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Артем</EnrolleeFirstname>
+    <EnrolleeLastname>Шпаковский</EnrolleeLastname>
+    <EnrolleePatronymic>Анатольевич</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2001-05-01T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3452354</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>44433787690</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Гродненским УВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2016-05-04T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2026-05-04T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Гродненская об., г.Гродно, ул. Грязная 34, кв.2</EnrolleeAddress>
+    <EnrolleePostcode>215359</EnrolleePostcode>
+    <EnrolleePhoneNumber>+432455252222</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ №7</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г. Гродно, ул.Весёлая 76</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>3760087975</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>76</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>53</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>49</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>60</EnrolleeScoreOfTheThirdEntranceTest>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>29</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-26T15:58:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Денис</EnrolleeFirstname>
+    <EnrolleeLastname>Мосейчук</EnrolleeLastname>
+    <EnrolleePatronymic>Эдуардович</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2001-07-20T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3422425</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>33433435553</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Гродненским УВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2014-07-03T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2024-07-03T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Нродненская об., г.Гродно, ул. Набережная 34,кв. 3</EnrolleeAddress>
+    <EnrolleePostcode>215359</EnrolleePostcode>
+    <EnrolleePhoneNumber>+3452325235323</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ №21</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г. Гродно, ул. Лошанова 13</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-08-14T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>3234343455</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>87</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>49</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>60</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>57</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>tankt34@mail.ru</EnrolleeEmail>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>30</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Ирина</EnrolleeFirstname>
+    <EnrolleeLastname>Вяз</EnrolleeLastname>
+    <EnrolleePatronymic>Ивановна</EnrolleePatronymic>
+    <EnrolleeSex>женский</EnrolleeSex>
+    <EnrolleeDateOfBirth>2000-05-02T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3421234</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>32452654456</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Минским ГОВ №1</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2015-05-21T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2025-05-21T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>г.Минск, ул. Машерова 34, кв.21</EnrolleeAddress>
+    <EnrolleePostcode>220015</EnrolleePostcode>
+    <EnrolleePhoneNumber>+32234434344</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ№4</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г.Минск, ул. Фролова 3, кв.2</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-08-14T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>332532352</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>88</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>59</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>84</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>45</EnrolleeScoreOfTheThirdEntranceTest>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>32</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Иван</EnrolleeFirstname>
+    <EnrolleeLastname>Васиков</EnrolleeLastname>
+    <EnrolleePatronymic>Павлович</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>1998-03-02T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>2342332</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>3453646636</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Пинским ГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2015-05-21T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2025-01-21T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Брестская об.,г.Пинск, ул.Совецкая 45,кв. 5</EnrolleeAddress>
+    <EnrolleePostcode>224710</EnrolleePostcode>
+    <EnrolleePhoneNumber>+4643634663464</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее специальное</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>КЛП</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г.Барановичи, ул. Беговая 45 </EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-09-25T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>35135135</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>88</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>9</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>8</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>0</EnrolleeScoreOfTheThirdEntranceTest>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>34</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Кирилл </EnrolleeFirstname>
+    <EnrolleeLastname>Бурак</EnrolleeLastname>
+    <EnrolleePatronymic>Александрович</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2000-03-24T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3435355</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>3425516542</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Пинским ГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2016-02-02T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2026-02-02T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Брестска об., г.Пинск, ул. Брестская 232, кв 3</EnrolleeAddress>
+    <EnrolleePostcode>225708</EnrolleePostcode>
+    <EnrolleePhoneNumber>+32424244245</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ №9</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г.Пинск, ул. Малая 2,кв. 12</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-08-24T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>42435235323</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>78</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>50</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>73</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>60</EnrolleeScoreOfTheThirdEntranceTest>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>36</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Полина</EnrolleeFirstname>
+    <EnrolleeLastname>Цветова</EnrolleeLastname>
+    <EnrolleePatronymic>Эдуардовна</EnrolleePatronymic>
+    <EnrolleeSex>женский</EnrolleeSex>
+    <EnrolleeDateOfBirth>2000-09-07T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3435355</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>3453634346</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Пинским ГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2016-02-02T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2019-02-02T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Брестская об., г.Пинск, ул.Брестская 130, кв. 5</EnrolleeAddress>
+    <EnrolleePostcode>225710</EnrolleePostcode>
+    <EnrolleePhoneNumber>+43253532553</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ №15</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г.Пинск, ул.Широкая 56</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>3435325353</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>92</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>65</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>45</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>0</EnrolleeScoreOfTheThirdEntranceTest>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>37</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Кристина</EnrolleeFirstname>
+    <EnrolleeLastname>Пронько</EnrolleeLastname>
+    <EnrolleePatronymic>Николаевна</EnrolleePatronymic>
+    <EnrolleeSex>женский</EnrolleeSex>
+    <EnrolleeDateOfBirth>2001-10-02T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>34423535</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>4353225352553</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Брестским ГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2017-02-03T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2020-05-04T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>г. Брест, ул. Машерова 43, кв. 45</EnrolleeAddress>
+    <EnrolleePostcode>433245</EnrolleePostcode>
+    <EnrolleePhoneNumber>+3443234234</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ №2</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г.Брест, ул.Солнечная 3</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>3434532535</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>76</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>75</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>45</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>0</EnrolleeScoreOfTheThirdEntranceTest>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>62</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2019-03-30T22:14:20.153</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Ирина</EnrolleeFirstname>
+    <EnrolleeLastname>Лемешевская</EnrolleeLastname>
+    <EnrolleePatronymic>Павловна</EnrolleePatronymic>
+    <EnrolleeSex>женский</EnrolleeSex>
+    <EnrolleeDateOfBirth>2000-02-23T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3244324</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>5086506554501</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Пинским ГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2017-05-02T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2023-05-02T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Брестская об.,г.Пинск,ул.Майская 23,кв.34</EnrolleeAddress>
+    <EnrolleePostcode>225710</EnrolleePostcode>
+    <EnrolleePhoneNumber>+34342434</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ №6</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г.Пинск,ул. Мятежная 13</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-06-15T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>432423324</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>80</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>80</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>0</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>0</EnrolleeScoreOfTheThirdEntranceTest>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>63</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2019-03-31T21:20:56.767</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Виктор</EnrolleeFirstname>
+    <EnrolleeLastname>Кривецкий</EnrolleeLastname>
+    <EnrolleePatronymic>Абрамович</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2000-08-03T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>2345323</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>353255235235</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Пинским ГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2010-08-03T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2020-08-03T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Брестская об.,г.Пинск,ул.Крайняя 34</EnrolleeAddress>
+    <EnrolleePostcode>225710</EnrolleePostcode>
+    <EnrolleePhoneNumber>+3432532353</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ №5</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г. Пинск, ул. Христофорова 34</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2018-08-15T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>425325325</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>84</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>76</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>35</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>67</EnrolleeScoreOfTheThirdEntranceTest>
+  </EnrolleeSend>
+</ArrayOfEnrolleeSend>

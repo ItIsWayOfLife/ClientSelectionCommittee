@@ -46,12 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EnrolleeForm.cs">
+    <Compile Include="AddEnrolleeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EnrolleeForm.Designer.cs">
+    <Compile Include="AddEnrolleeForm.Designer.cs">
+      <DependentUpon>AddEnrolleeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\EnrolleeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\EnrolleeForm.Designer.cs">
       <DependentUpon>EnrolleeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\EnrolleeSend.cs" />
+    <Compile Include="Requests\GetEnrollee.cs" />
     <Compile Include="Requests\GetTrainingDirectionSend.cs" />
     <Compile Include="Requests\LogIn.cs" />
     <Compile Include="Form\LoginForm.cs">
@@ -70,7 +78,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\TrainingDirectionSend.cs" />
     <Compile Include="Model\UserSend.cs" />
-    <EmbeddedResource Include="EnrolleeForm.resx">
+    <EmbeddedResource Include="AddEnrolleeForm.resx">
+      <DependentUpon>AddEnrolleeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\EnrolleeForm.resx">
       <DependentUpon>EnrolleeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\LoginForm.resx">
