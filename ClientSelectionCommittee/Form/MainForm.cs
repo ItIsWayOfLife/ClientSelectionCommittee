@@ -93,16 +93,14 @@ namespace ClientSelectionCommittee
 
         private void ToolStripButton1_Click(object sender, EventArgs e)
         {
-
+            AddEnrolleeForm addEnrolleeForm = new AddEnrolleeForm(FlagTrainingDirection());
+            addEnrolleeForm.Show();
         }
 
         private void ToolStripButton2_Click(object sender, EventArgs e)
         {
-            TrainingDirectionSend tdForMess =  FlagTrainingDirection();
-
-            MinutelyTrainingDirection minutelyTrainingDirection = new MinutelyTrainingDirection(tdForMess);
-            minutelyTrainingDirection.Show();
-                
+            MinutelyTrainingDirection minutelyTrainingDirection = new MinutelyTrainingDirection(FlagTrainingDirection());
+            minutelyTrainingDirection.Show();               
         }
     }
 }
