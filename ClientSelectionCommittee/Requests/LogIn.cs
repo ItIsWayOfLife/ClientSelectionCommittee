@@ -6,6 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using System.Windows.Forms;
 
 namespace ClientSelectionCommittee
 {
@@ -75,7 +76,7 @@ namespace ClientSelectionCommittee
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Ошибка: "+ex);
+                MessageBox.Show("Ошибка: "+ex.ToString());
                 return null;
             }
             finally

@@ -4,18 +4,21 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+
 
 namespace ClientSelectionCommittee
 {
-    class GetConcessionSend
+    class AddEnrollee
     {
-
-
-        public List<ConcessionSend> GetData()
+        public string AddEnrolleeTo(EnrolleeSend en)
         {
-            List<ConcessionSend> concessionSends = null;
+            en.ThisSerializable();
 
-            string message = "GetConcessionSend";
+            // заголовок
+            string message = "AddEnrollee ";
+            // добавление заголовка
+            message += en.ReadToXml();
 
             TcpClient client = null;
             try
@@ -28,7 +31,6 @@ namespace ClientSelectionCommittee
 
                 // Отправляем сообщение
                 stream.Write(data, 0, data.Length);
-                //
 
                 // Получаем ответ сервера
                 data = new byte[256];
@@ -41,32 +43,18 @@ namespace ClientSelectionCommittee
                 }
                 while (stream.DataAvailable);
                 message = response.ToString();
-
-                Console.WriteLine(message);
-
-                if (message.Contains("Ошибка"))
-                {
-                    throw new Exception("Ошибка сервера");
-                }
-                else
-                {
-                    ConcessionSend.WriteToXml(message);
-                    concessionSends = ConcessionSend.DeserializeFileXml();
-                }
-
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Ошибка " + ex);
-
+                MessageBox.Show("Ошибка: " + ex.ToString());
+                return null;
             }
             finally
             {
                 client.Close();
             }
 
-            return concessionSends;
-
+            return message;
         }
     }
 }

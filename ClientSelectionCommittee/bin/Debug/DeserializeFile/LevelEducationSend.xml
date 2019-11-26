@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfLevelEducationSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LevelEducationSend>
+    <Id>1</Id>
+    <NameLevelEducation>первая</NameLevelEducation>
+  </LevelEducationSend>
+  <LevelEducationSend>
+    <Id>2</Id>
+    <NameLevelEducation>вторая</NameLevelEducation>
+  </LevelEducationSend>
+</ArrayOfLevelEducationSend>

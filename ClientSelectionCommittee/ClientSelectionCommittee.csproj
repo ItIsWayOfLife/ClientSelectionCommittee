@@ -46,24 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEnrollee.cs" />
     <Compile Include="AddEnrolleeForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddEnrolleeForm.Designer.cs">
       <DependentUpon>AddEnrolleeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConcessionSend.cs" />
     <Compile Include="Form\EnrolleeForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\EnrolleeForm.Designer.cs">
       <DependentUpon>EnrolleeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MinutelyTrainingDirection.cs">
+    <Compile Include="Form\MinutelyTrainingDirection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MinutelyTrainingDirection.Designer.cs">
+    <Compile Include="Form\MinutelyTrainingDirection.Designer.cs">
       <DependentUpon>MinutelyTrainingDirection.cs</DependentUpon>
     </Compile>
+    <Compile Include="GetConcessionSend.cs" />
+    <Compile Include="GetLevelEducationSend.cs" />
+    <Compile Include="LevelEducationSend.cs" />
     <Compile Include="Model\EnrolleeSend.cs" />
     <Compile Include="Requests\GetEnrollee.cs" />
     <Compile Include="Requests\GetTrainingDirectionSend.cs" />
@@ -96,7 +101,7 @@
     <EmbeddedResource Include="Form\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MinutelyTrainingDirection.resx">
+    <EmbeddedResource Include="Form\MinutelyTrainingDirection.resx">
       <DependentUpon>MinutelyTrainingDirection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

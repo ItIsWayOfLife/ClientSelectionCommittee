@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfConcessionSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConcessionSend>
+    <Id>1</Id>
+    <NameConcession>без вступительных испытаний</NameConcession>
+  </ConcessionSend>
+  <ConcessionSend>
+    <Id>3</Id>
+    <NameConcession>вне конкурса</NameConcession>
+  </ConcessionSend>
+  <ConcessionSend>
+    <Id>4</Id>
+    <NameConcession>на условиях целевой подготовки</NameConcession>
+  </ConcessionSend>
+</ArrayOfConcessionSend>

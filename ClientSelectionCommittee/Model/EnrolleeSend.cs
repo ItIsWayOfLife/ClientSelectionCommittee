@@ -66,6 +66,29 @@ namespace ClientSelectionCommittee
             }
         }
 
+        public void ThisSerializable()
+        {
+            XmlSerializer formatter = new XmlSerializer(typeof(EnrolleeSend));
+
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("SerializableFile/AddEnrolleeSend.xml", FileMode.Create))
+            {
+                formatter.Serialize(fs, this);
+            }
+        }
+
+        public string ReadToXml()
+        {
+            string xmlData = null;
+
+            using (StreamReader reader = new StreamReader("SerializableFile/AddEnrolleeSend.xml"))
+            {
+                xmlData = reader.ReadToEnd();
+            }
+
+            return xmlData;
+        }
+
     }
 
 }

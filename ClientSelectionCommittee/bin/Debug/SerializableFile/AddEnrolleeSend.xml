@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<EnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <IdDirectionTraining>1</IdDirectionTraining>
+  <NameLevelEducation>первая</NameLevelEducation>
+  <NameConcession>без вступительных испытаний</NameConcession>
+  <EnrolleeDateOfRegistration>0001-01-01T00:00:00</EnrolleeDateOfRegistration>
+  <EnrolleeFirstname>5</EnrolleeFirstname>
+  <EnrolleeLastname>5</EnrolleeLastname>
+  <EnrolleePatronymic>5</EnrolleePatronymic>
+  <EnrolleeSex>мужской</EnrolleeSex>
+  <EnrolleeDateOfBirth>2010-02-02T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleePassportSeries>5</EnrolleePassportSeries>
+  <EnrolleePassportNumber>5</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>5</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>55</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2010-02-02T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2010-02-02T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>5</EnrolleeAddress>
+  <EnrolleePostcode>5</EnrolleePostcode>
+  <EnrolleePhoneNumber>5</EnrolleePhoneNumber>
+  <EnrolleeEducation>5</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>5</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>5</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeGraduationDate>2010-02-02T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>5</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>5</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeScoreOfTheFirstEntranceTest>5</EnrolleeScoreOfTheFirstEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>5</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>5</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleeEmail>5</EnrolleeEmail>
+  <EnrolleeAdditionalInformation>5</EnrolleeAdditionalInformation>
+</EnrolleeSend>
