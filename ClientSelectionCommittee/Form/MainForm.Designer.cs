@@ -38,6 +38,7 @@
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
@@ -48,7 +49,6 @@
             this.оРазработчикеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.помощьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -93,6 +93,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(189, 24);
             this.toolStripButton1.Text = "Добавить абитуриента";
+            this.toolStripButton1.Click += new System.EventHandler(this.ToolStripButton1_Click);
             // 
             // toolStripSeparator1
             // 
@@ -133,6 +134,7 @@
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(154, 24);
             this.toolStripButton2.Text = "Подробно о направлении";
+            this.toolStripButton2.Click += new System.EventHandler(this.ToolStripButton2_Click);
             // 
             // toolStripSeparator3
             // 
@@ -148,6 +150,11 @@
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.Size = new System.Drawing.Size(58, 24);
             this.toolStripButton5.Text = "История";
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripLabel2
             // 
@@ -237,14 +244,9 @@
             this.dataGridView1.Size = new System.Drawing.Size(1065, 383);
             this.dataGridView1.TabIndex = 11;
             // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
-            // 
             // Column1
             // 
-            this.Column1.HeaderText = "Id";
+            this.Column1.HeaderText = "Личный номер";
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
             this.Column1.Width = 60;

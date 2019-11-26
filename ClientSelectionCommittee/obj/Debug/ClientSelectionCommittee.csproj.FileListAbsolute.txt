@@ -10,3 +10,5 @@ D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\
 D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.MainForm.resources
 D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.LoginForm.resources
 D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.EnrolleeForm.resources
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.AddEnrolleeForm.resources
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.MinutelyTrainingDirection.resources

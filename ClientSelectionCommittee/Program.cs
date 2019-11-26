@@ -16,7 +16,7 @@ namespace ClientSelectionCommittee
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EnrolleeForm());
+            Application.Run(new MainForm());
         }
     }
 }

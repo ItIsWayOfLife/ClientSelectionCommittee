@@ -13,8 +13,7 @@ namespace ClientSelectionCommittee
     public partial class MainForm : Form
     {
         List<TrainingDirectionSend> trainingDirectionSends = null;
-
-
+     
         private void LoadDataServ()
         {
             trainingDirectionSends = new GetTrainingDirectionSend().GetTD();
@@ -58,9 +57,52 @@ namespace ClientSelectionCommittee
             }
         }
 
+
+        // возв выдел направл
+        private TrainingDirectionSend FlagTrainingDirection()
+        {
+            TrainingDirectionSend td = null;
+            try
+            {
+                // индекс строки а не id направл
+                int index = dataGridView1.CurrentRow.Index;
+
+                foreach (TrainingDirectionSend t in trainingDirectionSends)
+                {
+                    if ((int)dataGridView1[0, index].Value == t.Id)
+                    {
+                        td = t;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                return td;
+            }
+
+            return td;
+        }
+
+
         private void MainForm_Load(object sender, EventArgs e)
         {
             DrawData();
+        }
+
+        
+
+        private void ToolStripButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ToolStripButton2_Click(object sender, EventArgs e)
+        {
+            TrainingDirectionSend tdForMess =  FlagTrainingDirection();
+
+            MinutelyTrainingDirection minutelyTrainingDirection = new MinutelyTrainingDirection(tdForMess);
+            minutelyTrainingDirection.Show();
+                
         }
     }
 }
