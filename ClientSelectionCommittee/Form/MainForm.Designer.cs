@@ -110,6 +110,7 @@
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(186, 24);
             this.toolStripButton3.Text = "Данные абитуриентов ";
+            this.toolStripButton3.Click += new System.EventHandler(this.ToolStripButton3_Click);
             // 
             // toolStripSeparator2
             // 

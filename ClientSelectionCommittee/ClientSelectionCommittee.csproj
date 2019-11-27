@@ -54,6 +54,7 @@
       <DependentUpon>AddEnrolleeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ConcessionSend.cs" />
+    <Compile Include="DeleteEnrollee.cs" />
     <Compile Include="Form\EnrolleeForm.cs">
       <SubType>Form</SubType>
     </Compile>

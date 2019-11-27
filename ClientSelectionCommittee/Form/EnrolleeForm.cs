@@ -114,5 +114,17 @@ namespace ClientSelectionCommittee
         {
             DrawData();
         }
+
+        private void ToolStripButton2_Click(object sender, EventArgs e)
+        {
+            // индекс строки а не id абит
+            int index = dataGridView1.CurrentRow.Index;
+
+            // id удаляемого абит
+            int idDelEnrollee = (int)dataGridView1[0, index].Value;
+
+            // удаление абит
+            new DeleteEnrollee().Delte(idDelEnrollee);
+        }
     }
 }

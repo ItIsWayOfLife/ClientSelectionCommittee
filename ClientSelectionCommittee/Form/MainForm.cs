@@ -102,5 +102,11 @@ namespace ClientSelectionCommittee
             MinutelyTrainingDirection minutelyTrainingDirection = new MinutelyTrainingDirection(FlagTrainingDirection());
             minutelyTrainingDirection.Show();               
         }
+
+        private void ToolStripButton3_Click(object sender, EventArgs e)
+        {
+            EnrolleeForm enrolleeForm = new EnrolleeForm();
+            enrolleeForm.Show();
+        }
     }
 }
