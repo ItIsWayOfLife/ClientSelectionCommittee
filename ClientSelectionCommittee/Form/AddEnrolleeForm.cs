@@ -126,14 +126,17 @@ namespace ClientSelectionCommittee
                 enrolleeSend_.EnrolleeGraduationDate = Convert.ToDateTime(textBox10.Text);
 
                 enrolleeSend_.IdDirectionTraining = trainingDirectionSend.Id;
+
+
+                // добавляем в бд
+                new AddEnrollee().AddEnrolleeTo(enrolleeSend_);
+
+
             }
             catch (Exception)
             {
                 MessageBox.Show("Необходимо заполнить все поля правильно", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            // добавляем в бд
-            new AddEnrollee().AddEnrolleeTo(enrolleeSend_);
         }
     }
 }

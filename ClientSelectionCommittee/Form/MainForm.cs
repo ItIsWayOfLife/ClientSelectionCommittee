@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,8 @@ namespace ClientSelectionCommittee
         {
             InitializeComponent();
 
+            button1.Visible = false;
+
             try
             {
                 LoadDataServ();
@@ -36,6 +39,22 @@ namespace ClientSelectionCommittee
             {
                 MessageBox.Show($"Ошибка. Связь с сервером отсутствует! ({ex})") ;
             }         
+        }
+
+        public MainForm(bool bl)
+        {
+            InitializeComponent();
+
+            toolStrip.Visible = false;
+
+            try
+            {
+                LoadDataServ();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка. Связь с сервером отсутствует! ({ex})");
+            }
         }
 
         // заполн таблицы
@@ -103,10 +122,22 @@ namespace ClientSelectionCommittee
             minutelyTrainingDirection.Show();               
         }
 
+        // отк окно абит
         private void ToolStripButton3_Click(object sender, EventArgs e)
         {
-            EnrolleeForm enrolleeForm = new EnrolleeForm();
+            EnrolleeForm enrolleeForm = new EnrolleeForm(trainingDirectionSends);
             enrolleeForm.Show();
+        }
+
+        // запись выбранного направл
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter(@"UpdateDTEnrollee.txt"))
+            {
+                writer.Write(FlagTrainingDirection().Id.ToString());
+            }
+
+            this.Close();
         }
     }
 }

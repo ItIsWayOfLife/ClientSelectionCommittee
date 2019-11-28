@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <EnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>0</Id>
-  <IdDirectionTraining>1</IdDirectionTraining>
+  <Id>17</Id>
+  <IdDirectionTraining>13</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
-  <NameConcession>без вступительных испытаний</NameConcession>
-  <EnrolleeDateOfRegistration>0001-01-01T00:00:00</EnrolleeDateOfRegistration>
-  <EnrolleeFirstname>5</EnrolleeFirstname>
-  <EnrolleeLastname>5</EnrolleeLastname>
-  <EnrolleePatronymic>5</EnrolleePatronymic>
+  <NameConcession>на условиях целевой подготовки</NameConcession>
+  <EnrolleeDateOfRegistration>2019-11-29T00:31:48.403</EnrolleeDateOfRegistration>
+  <EnrolleeFirstname>Вася</EnrolleeFirstname>
+  <EnrolleeLastname>Савчук</EnrolleeLastname>
+  <EnrolleePatronymic>Антонович</EnrolleePatronymic>
   <EnrolleeSex>мужской</EnrolleeSex>
-  <EnrolleeDateOfBirth>2010-02-02T00:00:00</EnrolleeDateOfBirth>
-  <EnrolleePassportSeries>5</EnrolleePassportSeries>
-  <EnrolleePassportNumber>5</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>5</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>55</EnrolleePassportIssuedBy>
-  <EnrolleeDateOfIssue>2010-02-02T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2010-02-02T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>5</EnrolleeAddress>
-  <EnrolleePostcode>5</EnrolleePostcode>
-  <EnrolleePhoneNumber>5</EnrolleePhoneNumber>
-  <EnrolleeEducation>5</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>5</EnrolleeLastPlaceOfStudy>
-  <EnrolleeAddressLastPlaceOfStudy>5</EnrolleeAddressLastPlaceOfStudy>
-  <EnrolleeGraduationDate>2010-02-02T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>5</EnrolleeNumberCertificateOrDiploma>
-  <EnrolleeAverageGradeOfCertificateOrDiploma>5</EnrolleeAverageGradeOfCertificateOrDiploma>
-  <EnrolleeScoreOfTheFirstEntranceTest>5</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>5</EnrolleeScoreOfTheSecondEntranceTest>
-  <EnrolleeScoreOfTheThirdEntranceTest>5</EnrolleeScoreOfTheThirdEntranceTest>
-  <EnrolleeEmail>5</EnrolleeEmail>
-  <EnrolleeAdditionalInformation>5</EnrolleeAdditionalInformation>
+  <EnrolleeDateOfBirth>2000-02-02T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+  <EnrolleePassportNumber>3005411</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>34234232453</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>Минским УВД №1</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2016-02-04T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2026-04-02T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>Минская об., г. Дзержинск, ул. Минская 34, кв.7</EnrolleeAddress>
+  <EnrolleePostcode>233411</EnrolleePostcode>
+  <EnrolleePhoneNumber>+342342341232</EnrolleePhoneNumber>
+  <EnrolleeEducation>среднее</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>СШ №2</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>г.Дзержинск, ул. Радужная 3</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>0521235413</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>54</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeScoreOfTheFirstEntranceTest>32</EnrolleeScoreOfTheFirstEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>45</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>76</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleeEmail>antobigboss@mail.ru</EnrolleeEmail>
+  <EnrolleeAdditionalInformation />
 </EnrolleeSend>

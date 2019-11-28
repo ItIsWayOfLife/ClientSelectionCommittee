@@ -16,16 +16,7 @@ namespace ClientSelectionCommittee
         List<TrainingDirectionSend> trainingDirectionSends = null;
         List<EnrolleeSend> enrolleeSends = null;
 
-        // получить данные с серв
-         private void LoadDataServTD()
-        {
-            trainingDirectionSends = new GetTrainingDirectionSend().GetTD();
-
-            if (trainingDirectionSends == null)
-            {
-                MessageBox.Show("Ошибка. Связь с сервером отсутствует!");
-            }
-        }
+      
 
         // получить данные с серв
         private void LoadDataServEn()
@@ -38,13 +29,13 @@ namespace ClientSelectionCommittee
             }
         }
 
-        public EnrolleeForm()
+        public EnrolleeForm(List<TrainingDirectionSend> td)
         {
             InitializeComponent();
 
             try
             {
-                LoadDataServTD();
+                trainingDirectionSends = td;
                 LoadDataServEn();
             }
             catch (Exception ex)
@@ -115,6 +106,7 @@ namespace ClientSelectionCommittee
             DrawData();
         }
 
+        // удаление абитуриента
         private void ToolStripButton2_Click(object sender, EventArgs e)
         {
             // индекс строки а не id абит
@@ -125,6 +117,38 @@ namespace ClientSelectionCommittee
 
             // удаление абит
             new DeleteEnrollee().Delte(idDelEnrollee);
+        }
+
+        // возв выдел абит
+        private EnrolleeSend FlagEnrollee()
+        {
+            EnrolleeSend en = null;
+            try
+            {
+                // индекс строки а не id аби
+                int index = dataGridView1.CurrentRow.Index;
+
+                foreach (EnrolleeSend e in enrolleeSends)
+                {
+                    if ((int)dataGridView1[0, index].Value == e.Id)
+                    {
+                        en = e;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                return en;
+            }
+
+            return en;
+        }
+
+        // обновление абитуриента
+        private void ToolStripButton1_Click(object sender, EventArgs e)
+        {
+            UpdateEnrolleeForm updateEnrolleeForm = new UpdateEnrolleeForm(FlagEnrollee(), trainingDirectionSends.Where(p=>p.Id==FlagEnrollee().IdDirectionTraining).First(), trainingDirectionSends);
+            updateEnrolleeForm.Show();
         }
     }
 }

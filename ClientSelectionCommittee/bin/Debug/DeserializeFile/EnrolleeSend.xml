@@ -2,10 +2,11 @@
 <ArrayOfEnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EnrolleeSend>
     <Id>17</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
+    <IdDirectionTraining>13</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2018-08-22T15:05:00</EnrolleeDateOfRegistration>
-    <EnrolleeFirstname>Антон</EnrolleeFirstname>
+    <NameConcession>на условиях целевой подготовки</NameConcession>
+    <EnrolleeDateOfRegistration>2019-11-29T00:32:58.22</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Вася</EnrolleeFirstname>
     <EnrolleeLastname>Савчук</EnrolleeLastname>
     <EnrolleePatronymic>Антонович</EnrolleePatronymic>
     <EnrolleeSex>мужской</EnrolleeSex>
@@ -29,6 +30,7 @@
     <EnrolleeScoreOfTheSecondEntranceTest>45</EnrolleeScoreOfTheSecondEntranceTest>
     <EnrolleeScoreOfTheThirdEntranceTest>76</EnrolleeScoreOfTheThirdEntranceTest>
     <EnrolleeEmail>antobigboss@mail.ru</EnrolleeEmail>
+    <EnrolleeAdditionalInformation />
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>21</Id>
@@ -413,37 +415,6 @@
     <EnrolleeAdditionalInformation>34</EnrolleeAdditionalInformation>
   </EnrolleeSend>
   <EnrolleeSend>
-    <Id>71</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
-    <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-11-26T23:12:00.993</EnrolleeDateOfRegistration>
-    <EnrolleeFirstname>34</EnrolleeFirstname>
-    <EnrolleeLastname>34</EnrolleeLastname>
-    <EnrolleePatronymic>34</EnrolleePatronymic>
-    <EnrolleeSex>женский</EnrolleeSex>
-    <EnrolleeDateOfBirth>2010-02-01T00:00:00</EnrolleeDateOfBirth>
-    <EnrolleePassportSeries>34</EnrolleePassportSeries>
-    <EnrolleePassportNumber>34</EnrolleePassportNumber>
-    <EnrolleePassportPersonalNumber>34</EnrolleePassportPersonalNumber>
-    <EnrolleePassportIssuedBy>34</EnrolleePassportIssuedBy>
-    <EnrolleeDateOfIssue>2010-02-01T00:00:00</EnrolleeDateOfIssue>
-    <EnrolleeDateExpiry>2010-02-01T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>34</EnrolleeAddress>
-    <EnrolleePostcode>34</EnrolleePostcode>
-    <EnrolleePhoneNumber>34</EnrolleePhoneNumber>
-    <EnrolleeEducation>34</EnrolleeEducation>
-    <EnrolleeLastPlaceOfStudy>34</EnrolleeLastPlaceOfStudy>
-    <EnrolleeAddressLastPlaceOfStudy>34</EnrolleeAddressLastPlaceOfStudy>
-    <EnrolleeGraduationDate>2010-02-01T00:00:00</EnrolleeGraduationDate>
-    <EnrolleeNumberCertificateOrDiploma>34</EnrolleeNumberCertificateOrDiploma>
-    <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
-    <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
-    <EnrolleeScoreOfTheSecondEntranceTest>34</EnrolleeScoreOfTheSecondEntranceTest>
-    <EnrolleeScoreOfTheThirdEntranceTest>34</EnrolleeScoreOfTheThirdEntranceTest>
-    <EnrolleeEmail>34</EnrolleeEmail>
-    <EnrolleeAdditionalInformation>34</EnrolleeAdditionalInformation>
-  </EnrolleeSend>
-  <EnrolleeSend>
     <Id>73</Id>
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
@@ -479,38 +450,6 @@
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>вторая</NameLevelEducation>
     <EnrolleeDateOfRegistration>2019-11-26T23:30:00.37</EnrolleeDateOfRegistration>
-    <EnrolleeFirstname>5</EnrolleeFirstname>
-    <EnrolleeLastname>5</EnrolleeLastname>
-    <EnrolleePatronymic>5</EnrolleePatronymic>
-    <EnrolleeSex>мужской</EnrolleeSex>
-    <EnrolleeDateOfBirth>2010-02-02T00:00:00</EnrolleeDateOfBirth>
-    <EnrolleePassportSeries>5</EnrolleePassportSeries>
-    <EnrolleePassportNumber>5</EnrolleePassportNumber>
-    <EnrolleePassportPersonalNumber>5</EnrolleePassportPersonalNumber>
-    <EnrolleePassportIssuedBy>55</EnrolleePassportIssuedBy>
-    <EnrolleeDateOfIssue>2010-02-02T00:00:00</EnrolleeDateOfIssue>
-    <EnrolleeDateExpiry>2010-02-02T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>5</EnrolleeAddress>
-    <EnrolleePostcode>5</EnrolleePostcode>
-    <EnrolleePhoneNumber>5</EnrolleePhoneNumber>
-    <EnrolleeEducation>5</EnrolleeEducation>
-    <EnrolleeLastPlaceOfStudy>5</EnrolleeLastPlaceOfStudy>
-    <EnrolleeAddressLastPlaceOfStudy>5</EnrolleeAddressLastPlaceOfStudy>
-    <EnrolleeGraduationDate>2010-02-02T00:00:00</EnrolleeGraduationDate>
-    <EnrolleeNumberCertificateOrDiploma>5</EnrolleeNumberCertificateOrDiploma>
-    <EnrolleeAverageGradeOfCertificateOrDiploma>5</EnrolleeAverageGradeOfCertificateOrDiploma>
-    <EnrolleeScoreOfTheFirstEntranceTest>5</EnrolleeScoreOfTheFirstEntranceTest>
-    <EnrolleeScoreOfTheSecondEntranceTest>5</EnrolleeScoreOfTheSecondEntranceTest>
-    <EnrolleeScoreOfTheThirdEntranceTest>5</EnrolleeScoreOfTheThirdEntranceTest>
-    <EnrolleeEmail>5</EnrolleeEmail>
-    <EnrolleeAdditionalInformation>5</EnrolleeAdditionalInformation>
-  </EnrolleeSend>
-  <EnrolleeSend>
-    <Id>76</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
-    <NameLevelEducation>первая</NameLevelEducation>
-    <NameConcession>без вступительных испытаний</NameConcession>
-    <EnrolleeDateOfRegistration>2019-11-26T23:32:07.017</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>5</EnrolleeFirstname>
     <EnrolleeLastname>5</EnrolleeLastname>
     <EnrolleePatronymic>5</EnrolleePatronymic>

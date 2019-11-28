@@ -19,7 +19,7 @@ namespace ClientSelectionCommittee
         {
             InitializeComponent();
             login = new LogIn();
-            user = new UserSend();
+           
         }
 
         
