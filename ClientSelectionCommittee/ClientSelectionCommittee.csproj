@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocumentsSend.cs" />
     <Compile Include="Requests\AddEnrollee.cs" />
     <Compile Include="Form\AddEnrolleeForm.cs">
       <SubType>Form</SubType>
@@ -97,6 +98,7 @@
     <Compile Include="Form\UpdateEnrolleeForm.Designer.cs">
       <DependentUpon>UpdateEnrolleeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReturnLastIdEn.cs" />
     <EmbeddedResource Include="Form\AddEnrolleeForm.resx">
       <DependentUpon>AddEnrolleeForm.cs</DependentUpon>
     </EmbeddedResource>

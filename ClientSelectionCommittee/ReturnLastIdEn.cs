@@ -8,12 +8,11 @@ using System.Windows.Forms;
 
 namespace ClientSelectionCommittee
 {
-    class DeleteEnrollee
+    class ReturnLastIdEn
     {
-        public void Delte(int id)
+        public string ReturnLastId()
         {
-            string message = "DeleteEnrollee ";
-            message += id.ToString();
+            string message = "ReturnLastIdEn ";
 
             TcpClient client = null;
             try
@@ -43,11 +42,11 @@ namespace ClientSelectionCommittee
 
                 if (message.Contains("Ошибка"))
                 {
-                    throw new Exception("Ошибка сервера: "+message);
+                    throw new Exception("Ошибка сервера: " + message);
                 }
                 else
                 {
-                    MessageBox.Show("Успешно удалено");
+                    return message;
                 }
 
             }
@@ -59,6 +58,8 @@ namespace ClientSelectionCommittee
             {
                 client.Close();
             }
+
+            return null;
         }
     }
 }

@@ -106,6 +106,21 @@
             this.label14 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label49 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.NameDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -113,6 +128,9 @@
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel7
@@ -885,9 +903,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(696, 484);
+            this.button3.Location = new System.Drawing.Point(750, 422);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(172, 44);
+            this.button3.Size = new System.Drawing.Size(130, 47);
             this.button3.TabIndex = 39;
             this.button3.Text = "Очистить поля";
             this.button3.UseVisualStyleBackColor = true;
@@ -895,19 +913,166 @@
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(509, 484);
+            this.button1.Location = new System.Drawing.Point(616, 428);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(181, 47);
+            this.button1.Size = new System.Drawing.Size(117, 41);
             this.button1.TabIndex = 38;
             this.button1.Text = "Добавить абитуриента";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.Maroon;
+            this.panel10.Controls.Add(this.label49);
+            this.panel10.Controls.Add(this.button2);
+            this.panel10.Controls.Add(this.dataGridView1);
+            this.panel10.Location = new System.Drawing.Point(309, 494);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(461, 179);
+            this.panel10.TabIndex = 40;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label49.Location = new System.Drawing.Point(169, 11);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(115, 16);
+            this.label49.TabIndex = 27;
+            this.label49.Text = "Документация";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(377, 8);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 18;
+            this.button2.Text = "Сохранить";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NameDoc,
+            this.Number,
+            this.Description});
+            this.dataGridView1.Location = new System.Drawing.Point(5, 37);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(447, 133);
+            this.dataGridView1.TabIndex = 16;
+            // 
+            // NameDoc
+            // 
+            this.NameDoc.HeaderText = "Название";
+            this.NameDoc.Name = "NameDoc";
+            this.NameDoc.Width = 150;
+            // 
+            // Number
+            // 
+            this.Number.HeaderText = "Номер";
+            this.Number.Name = "Number";
+            // 
+            // Description
+            // 
+            this.Description.HeaderText = "Описание";
+            this.Description.Name = "Description";
+            this.Description.Width = 150;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel8.Controls.Add(this.label47);
+            this.panel8.Controls.Add(this.label46);
+            this.panel8.Controls.Add(this.label45);
+            this.panel8.Controls.Add(this.label44);
+            this.panel8.Controls.Add(this.label48);
+            this.panel8.Controls.Add(this.label51);
+            this.panel8.Controls.Add(this.label52);
+            this.panel8.Location = new System.Drawing.Point(4, 428);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(278, 89);
+            this.panel8.TabIndex = 41;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label47.Location = new System.Drawing.Point(49, 66);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(15, 16);
+            this.label47.TabIndex = 20;
+            this.label47.Text = "_";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label46.Location = new System.Drawing.Point(78, 50);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(15, 16);
+            this.label46.TabIndex = 19;
+            this.label46.Text = "_";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label45.Location = new System.Drawing.Point(36, 34);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(15, 16);
+            this.label45.TabIndex = 18;
+            this.label45.Text = "_";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label44.Location = new System.Drawing.Point(8, 34);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(22, 16);
+            this.label44.TabIndex = 17;
+            this.label44.Text = "Id:";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label48.Location = new System.Drawing.Point(9, 66);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(37, 16);
+            this.label48.TabIndex = 3;
+            this.label48.Text = "Имя:";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label51.Location = new System.Drawing.Point(77, 5);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(118, 24);
+            this.label51.TabIndex = 0;
+            this.label51.Text = "Абитуриент";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label52.Location = new System.Drawing.Point(8, 50);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(70, 16);
+            this.label52.TabIndex = 16;
+            this.label52.Text = "Фамилия:";
+            // 
             // AddEnrolleeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(905, 613);
+            this.ClientSize = new System.Drawing.Size(905, 686);
+            this.Controls.Add(this.panel8);
+            this.Controls.Add(this.panel10);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
@@ -934,6 +1099,11 @@
             this.panel4.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1018,5 +1188,20 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NameDoc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Number;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Description;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label52;
     }
 }
