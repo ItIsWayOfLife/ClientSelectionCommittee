@@ -2,9 +2,9 @@
 <ArrayOfDocumentsSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <DocumentsSend>
     <Id>0</Id>
-    <IdEnrollee>2067</IdEnrollee>
-    <NameDocument>12</NameDocument>
-    <NumberDocument>12</NumberDocument>
-    <Description>12</Description>
+    <IdEnrollee>1032</IdEnrollee>
+    <NameDocument>0</NameDocument>
+    <NumberDocument>0</NumberDocument>
+    <Description>0</Description>
   </DocumentsSend>
 </ArrayOfDocumentsSend>

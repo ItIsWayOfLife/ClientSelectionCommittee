@@ -88,5 +88,28 @@ namespace ClientSelectionCommittee
             }
         }
 
+        public void ThisSerializable()
+        {
+            XmlSerializer formatter = new XmlSerializer(typeof(DocumentsSend));
+
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("SerializableFile/UpdateDoc.xml", FileMode.Create))
+            {
+                formatter.Serialize(fs, this);
+            }
+        }
+
+        public string ReadToXmlOne()
+        {
+            string xmlData = null;
+
+            using (StreamReader reader = new StreamReader("SerializableFile/UpdateDoc.xml"))
+            {
+                xmlData = reader.ReadToEnd();
+            }
+
+            return xmlData;
+        }
+
     }
 }

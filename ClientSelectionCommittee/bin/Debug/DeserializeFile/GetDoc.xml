@@ -14,4 +14,18 @@
     <NumberDocument>4</NumberDocument>
     <Description>4</Description>
   </DocumentsSend>
+  <DocumentsSend>
+    <Id>1031</Id>
+    <IdEnrollee>2066</IdEnrollee>
+    <NameDocument>3</NameDocument>
+    <NumberDocument>3</NumberDocument>
+    <Description>3</Description>
+  </DocumentsSend>
+  <DocumentsSend>
+    <Id>1032</Id>
+    <IdEnrollee>2066</IdEnrollee>
+    <NameDocument>1337</NameDocument>
+    <NumberDocument>1337</NumberDocument>
+    <Description>777</Description>
+  </DocumentsSend>
 </ArrayOfDocumentsSend>

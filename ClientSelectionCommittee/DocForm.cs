@@ -74,5 +74,17 @@ namespace ClientSelectionCommittee
         {
            new DeleteDoc().Delete(FlagDoc().Id);
         }
+
+        private void ToolStripButton1_Click(object sender, EventArgs e)
+        {
+            AddDocForm addDocForm = new AddDocForm(FlagDoc().Id);
+            addDocForm.Show();
+        }
+
+        private void ToolStripButton2_Click(object sender, EventArgs e)
+        {
+            UpdateDocForm updateDocForm = new UpdateDocForm(FlagDoc());
+            updateDocForm.Show();
+        }
     }
 }

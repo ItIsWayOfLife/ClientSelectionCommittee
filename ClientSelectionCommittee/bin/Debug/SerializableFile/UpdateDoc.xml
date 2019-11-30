@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<DocumentsSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>1032</Id>
+  <IdEnrollee>2066</IdEnrollee>
+  <NameDocument>1337</NameDocument>
+  <NumberDocument>1337</NumberDocument>
+  <Description>777</Description>
+</DocumentsSend>
