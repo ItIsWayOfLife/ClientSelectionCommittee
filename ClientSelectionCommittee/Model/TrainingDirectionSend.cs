@@ -47,5 +47,21 @@ namespace ClientSelectionCommittee
                 return (List<TrainingDirectionSend>)formatter.Deserialize(fs);
             }
         }
+
+
+        // поиск по id
+        public static List<TrainingDirectionSend> SearchById(int id_, List<TrainingDirectionSend> trainingDirections)
+        {
+            List<TrainingDirectionSend> newTr = new List<TrainingDirectionSend>();
+
+            foreach (TrainingDirectionSend t in trainingDirections)
+            {
+                if (t.Id == id_)
+                {
+                    newTr.Add(t);
+                }
+            }
+            return newTr;
+        }
     }
 }

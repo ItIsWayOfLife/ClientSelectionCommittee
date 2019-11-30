@@ -201,11 +201,32 @@ namespace ClientSelectionCommittee
 
         private void ToolStripButton6_Click(object sender, EventArgs e)
         {
-            if (toolStripComboBox2.Text == arraySearch[0] && toolStripComboBox1.Text == arrayFac[0])
+            if (toolStripComboBox2.Text == arraySearch[0] || toolStripTextBox1.Text=="")
             {
-                MessageBox.Show("Выберите по каким критериям будет вестись поиск");
+                MessageBox.Show("Выберите по каким критериям будет вестись поиск и укажите что ищите");
+                return;
             }
+            else if (toolStripComboBox2.Text == arraySearch[1])
+            {
+                // удаление данных с datagv (обратный цикл)
+                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+                {
+                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+                }
+                int id;
+                bool bl = Int32.TryParse(toolStripTextBox1.Text, out id);
+                if (bl)
+                {
+                    DrawData(TrainingDirectionSend.SearchById(id, trainingDirectionSends));
+                }
+                else
+                {
+                    MessageBox.Show("Укажите число");
+                }
+            }
+
         }
+        
 
         private void ToolStripButton7_Click(object sender, EventArgs e)
         {
