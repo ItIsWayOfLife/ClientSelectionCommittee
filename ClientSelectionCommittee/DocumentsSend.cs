@@ -67,5 +67,26 @@ namespace ClientSelectionCommittee
         }
 
 
+        // запись в xml
+        public static void WriteToXml(string words)
+        {
+            File.Delete("DeserializeFile/GetDoc.xml");
+            using (StreamWriter writer = new StreamWriter("DeserializeFile/GetDoc.xml"))
+            {
+                writer.Write(words);
+            }
+        }
+
+
+        public static List<DocumentsSend> DeserializeFileXml()
+        {
+            using (FileStream fs = new FileStream("DeserializeFile/GetDoc.xml", FileMode.Open))
+            {
+                XmlSerializer formatter = new XmlSerializer(typeof(List<DocumentsSend>));
+
+                return (List<DocumentsSend>)formatter.Deserialize(fs);
+            }
+        }
+
     }
 }

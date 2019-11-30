@@ -150,5 +150,11 @@ namespace ClientSelectionCommittee
             UpdateEnrolleeForm updateEnrolleeForm = new UpdateEnrolleeForm(FlagEnrollee(), trainingDirectionSends.Where(p=>p.Id==FlagEnrollee().IdDirectionTraining).First(), trainingDirectionSends);
             updateEnrolleeForm.Show();
         }
+
+        private void ToolStripButton4_Click(object sender, EventArgs e)
+        {
+            DocForm docForm = new DocForm(FlagEnrollee());
+            docForm.Show();
+        }
     }
 }

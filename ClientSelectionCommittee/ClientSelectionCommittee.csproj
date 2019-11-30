@@ -47,7 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddDoc.cs" />
+    <Compile Include="DocForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocForm.Designer.cs">
+      <DependentUpon>DocForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DocumentsSend.cs" />
+    <Compile Include="GetDoc.cs" />
     <Compile Include="Requests\AddEnrollee.cs" />
     <Compile Include="Form\AddEnrolleeForm.cs">
       <SubType>Form</SubType>
@@ -100,6 +107,9 @@
       <DependentUpon>UpdateEnrolleeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ReturnLastIdEn.cs" />
+    <EmbeddedResource Include="DocForm.resx">
+      <DependentUpon>DocForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\AddEnrolleeForm.resx">
       <DependentUpon>AddEnrolleeForm.cs</DependentUpon>
     </EmbeddedResource>
