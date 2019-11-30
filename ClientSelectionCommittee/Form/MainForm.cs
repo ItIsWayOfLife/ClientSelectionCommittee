@@ -201,7 +201,7 @@ namespace ClientSelectionCommittee
 
         private void ToolStripButton6_Click(object sender, EventArgs e)
         {
-            if (toolStripComboBox2.Text == arraySearch[0] || toolStripTextBox1.Text=="")
+            if (toolStripComboBox2.Text == arraySearch[0] || toolStripTextBox1.Text == "")
             {
                 MessageBox.Show("Выберите по каким критериям будет вестись поиск и укажите что ищите");
                 return;
@@ -223,6 +223,66 @@ namespace ClientSelectionCommittee
                 {
                     MessageBox.Show("Укажите число");
                 }
+            }
+            else if (toolStripComboBox2.Text == arraySearch[2])
+            {
+                // удаление данных с datagv (обратный цикл)
+                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+                {
+                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+                }
+
+                DrawData(trainingDirectionSends.Where(p=>p.NameBudgetOrCharge.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
+            }
+            else if (toolStripComboBox2.Text == arraySearch[3])
+            {
+                // удаление данных с datagv (обратный цикл)
+                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+                {
+                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+                }
+
+                DrawData(trainingDirectionSends.Where(p => p.NameFormStudy.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
+            }
+            else if (toolStripComboBox2.Text == arraySearch[4])
+            {
+                // удаление данных с datagv (обратный цикл)
+                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+                {
+                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+                }
+
+                DrawData(trainingDirectionSends.Where(p => p.NameTrainingPeriod.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
+            }
+            else if (toolStripComboBox2.Text == arraySearch[5])
+            {
+                // удаление данных с datagv (обратный цикл)
+                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+                {
+                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+                }
+
+                DrawData(trainingDirectionSends.Where(p => p.CodeSpecialty.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
+            }
+            else if (toolStripComboBox2.Text == arraySearch[6])
+            {
+                // удаление данных с datagv (обратный цикл)
+                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+                {
+                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+                }
+
+                DrawData(trainingDirectionSends.Where(p => p.ShortNameDepartment.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
+            }
+            else if (toolStripComboBox2.Text == arraySearch[7])
+            {
+                // удаление данных с datagv (обратный цикл)
+                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+                {
+                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+                }
+
+                DrawData(trainingDirectionSends.Where(p => p.FullNameSpecialty.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
             }
 
         }
