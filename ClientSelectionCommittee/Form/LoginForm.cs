@@ -18,40 +18,71 @@ namespace ClientSelectionCommittee
         public LoginForm()
         {
             InitializeComponent();
-            login = new LogIn();
-           
+            login = new LogIn();         
         }
 
         
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-            
+            textBox2.UseSystemPasswordChar = true;
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            try
+
+            // если тексбоксы непустые
+            if (textBox1.Text != String.Empty && textBox2.Text != String.Empty)
             {
-                login.Login = textBox1.Text;
-                login.Password = textBox2.Text;
 
-                user = login.LoginTo();
-
-                if (user == null)
+                try
                 {
-                    MessageBox.Show("Такого пользоваеля не существует.");
-                }
-                else
-                {
-                    MessageBox.Show("Добро пожаловать "+user.Firstname);
-                }
+                    login.Login = textBox1.Text;
+                    login.Password = textBox2.Text;
 
+                    user = login.LoginTo();
+
+                    if (user != null)
+                    {
+                        MessageBox.Show("Добро пожаловать " + user.Firstname);
+
+                        MainForm mainForm = new MainForm(user);
+                        mainForm.Show();
+
+                        textBox1.Text = "";
+                        textBox2.Text = "";
+
+                        // свор форму
+                        this.Hide();
+                        user = null;
+                    }
+                    else
+                    {          
+                        label3.Text = "Неверный логин или пароль";
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Ошибка: "+ex);
-            }
+            
+             
+
+            label4.Text = ("Укажите логин и пароль");
+
+        }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+            // ссылка на сайт ПолесГУ
+            System.Diagnostics.Process.Start("http://www.polessu.by");
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

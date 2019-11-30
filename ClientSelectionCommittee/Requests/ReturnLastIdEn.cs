@@ -4,23 +4,20 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ClientSelectionCommittee
 {
-    class GetDoc
+    class ReturnLastIdEn
     {
-        public List<DocumentsSend> GetData(int id)
+        public string ReturnLastId()
         {
-            List<DocumentsSend> documentsSends = null;
-
-            string message = "GetDoc ";
-
-            message += id.ToString(); ;
+            string message = "ReturnLastIdEn ";
 
             TcpClient client = null;
             try
             {
-                client = new TcpClient("127.0.0.1", 1234);
+                client = GetTcpClient.GetTcpClient_;
                 NetworkStream stream = client.GetStream();
 
                 // Преобразуем сообщение в массив байтов
@@ -42,29 +39,27 @@ namespace ClientSelectionCommittee
                 while (stream.DataAvailable);
                 message = response.ToString();
 
+
                 if (message.Contains("Ошибка"))
                 {
-                    throw new Exception("Ошибка сервера");
+                    throw new Exception("Ошибка сервера: " + message);
                 }
                 else
                 {
-                    DocumentsSend.WriteToXml(message);
-                    documentsSends = DocumentsSend.DeserializeFileXml();
+                    return message;
                 }
 
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Ошибка " + ex);
-
+                MessageBox.Show("Ошибка " + ex);
             }
             finally
             {
                 client.Close();
             }
 
-            return documentsSends;
-
+            return null;
         }
     }
 }

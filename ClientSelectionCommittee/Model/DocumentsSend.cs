@@ -66,7 +66,6 @@ namespace ClientSelectionCommittee
             return xmlData;
         }
 
-
         // запись в xml
         public static void WriteToXml(string words)
         {
@@ -110,6 +109,5 @@ namespace ClientSelectionCommittee
 
             return xmlData;
         }
-
     }
 }

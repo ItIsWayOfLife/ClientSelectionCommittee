@@ -24,8 +24,6 @@ namespace ClientSelectionCommittee
                 writer.Write(words);
             }
         }
-
-
         public static List<ConcessionSend> DeserializeFileXml()
         {
             using (FileStream fs = new FileStream("DeserializeFile/ConcessionSend.xml", FileMode.Open))
@@ -35,6 +33,5 @@ namespace ClientSelectionCommittee
                 return (List<ConcessionSend>)formatter.Deserialize(fs);
             }
         }
-
     }
 }

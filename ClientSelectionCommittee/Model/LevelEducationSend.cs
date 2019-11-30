@@ -14,7 +14,6 @@ namespace ClientSelectionCommittee
         public int Id { get; set; }
         public string NameLevelEducation { get; set; }
 
-
         // запись в xml
         public static void WriteToXml(string words)
         {
@@ -25,7 +24,6 @@ namespace ClientSelectionCommittee
             }
         }
 
-
         public static List<LevelEducationSend> DeserializeFileXml()
         {
             using (FileStream fs = new FileStream("DeserializeFile/LevelEducationSend.xml", FileMode.Open))
@@ -35,6 +33,5 @@ namespace ClientSelectionCommittee
                 return (List<LevelEducationSend>)formatter.Deserialize(fs);
             }
         }
-
     }
 }

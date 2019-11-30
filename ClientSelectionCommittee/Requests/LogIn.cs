@@ -32,7 +32,7 @@ namespace ClientSelectionCommittee
             TcpClient client = null;
             try
             {
-                client = new TcpClient("127.0.0.1", 1234);
+                client = GetTcpClient.GetTcpClient_;
                 NetworkStream stream = client.GetStream();
 
                 // Преобразуем сообщение в массив байтов
@@ -40,7 +40,6 @@ namespace ClientSelectionCommittee
 
                 // Отправляем сообщение
                 stream.Write(data, 0, data.Length);
-                //
 
                 // Получаем ответ сервера
                 data = new byte[256];
@@ -53,8 +52,6 @@ namespace ClientSelectionCommittee
                 }
                 while (stream.DataAvailable);
                 message = response.ToString();
-
-                Console.WriteLine(message);
 
                 if (message.Contains("Ошибка"))
                 {
@@ -74,9 +71,8 @@ namespace ClientSelectionCommittee
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show("Ошибка: "+ex.ToString());
                 return null;
             }
             finally
@@ -84,7 +80,6 @@ namespace ClientSelectionCommittee
                 client.Close();
             }
 
-            Console.WriteLine("End method login");
             return userSend;          
         }
 

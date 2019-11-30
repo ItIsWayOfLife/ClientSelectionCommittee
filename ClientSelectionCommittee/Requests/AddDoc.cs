@@ -8,17 +8,21 @@ using System.Windows.Forms;
 
 namespace ClientSelectionCommittee
 {
-    class DeleteDoc
+    class AddDoc
     {
-        public void Delete(int id)
+        public string AddDocum(List<DocumentsSend> documentsSends)
         {
-            string message = "DeleteDoc ";
-            message += id.ToString();
+            DocumentsSend.DataSerializable(documentsSends);
+
+            // заголовок
+            string message = "AddDoc ";
+            // добавление заголовка
+            message += DocumentsSend.ReadToXml();
 
             TcpClient client = null;
             try
             {
-                client = new TcpClient("127.0.0.1", 1234);
+                client = GetTcpClient.GetTcpClient_;
                 NetworkStream stream = client.GetStream();
 
                 // Преобразуем сообщение в массив байтов
@@ -26,7 +30,6 @@ namespace ClientSelectionCommittee
 
                 // Отправляем сообщение
                 stream.Write(data, 0, data.Length);
-                //
 
                 // Получаем ответ сервера
                 data = new byte[256];
@@ -39,25 +42,18 @@ namespace ClientSelectionCommittee
                 }
                 while (stream.DataAvailable);
                 message = response.ToString();
-
-
-                if (message.Contains("Ошибка"))
-                {
-                    throw new Exception("Ошибка сервера: " + message);
-                }
-                else
-                {
-                    MessageBox.Show("Успешно удалено");
-                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ошибка " + ex);
+                MessageBox.Show("Ошибка: " + ex.ToString());
+                return null;
             }
             finally
             {
                 client.Close();
             }
+
+            return message;
         }
     }
 }

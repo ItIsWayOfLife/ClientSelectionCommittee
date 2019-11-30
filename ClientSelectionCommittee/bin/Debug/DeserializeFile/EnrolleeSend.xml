@@ -2,9 +2,9 @@
 <ArrayOfEnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EnrolleeSend>
     <Id>21</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
+    <IdDirectionTraining>7</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2018-08-22T15:52:00</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-11-30T20:54:57.99</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>Михаил</EnrolleeFirstname>
     <EnrolleeLastname>Бодзевич</EnrolleeLastname>
     <EnrolleePatronymic>Степанович</EnrolleePatronymic>
@@ -28,6 +28,8 @@
     <EnrolleeScoreOfTheFirstEntranceTest>50</EnrolleeScoreOfTheFirstEntranceTest>
     <EnrolleeScoreOfTheSecondEntranceTest>80</EnrolleeScoreOfTheSecondEntranceTest>
     <EnrolleeScoreOfTheThirdEntranceTest>35</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>2</EnrolleeEmail>
+    <EnrolleeAdditionalInformation>2</EnrolleeAdditionalInformation>
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>23</Id>
@@ -323,35 +325,6 @@
     <EnrolleeScoreOfTheThirdEntranceTest>0</EnrolleeScoreOfTheThirdEntranceTest>
   </EnrolleeSend>
   <EnrolleeSend>
-    <Id>63</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
-    <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-03-31T21:20:56.767</EnrolleeDateOfRegistration>
-    <EnrolleeFirstname>Виктор</EnrolleeFirstname>
-    <EnrolleeLastname>Кривецкий</EnrolleeLastname>
-    <EnrolleePatronymic>Абрамович</EnrolleePatronymic>
-    <EnrolleeSex>мужской</EnrolleeSex>
-    <EnrolleeDateOfBirth>2000-08-03T00:00:00</EnrolleeDateOfBirth>
-    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
-    <EnrolleePassportNumber>2345323</EnrolleePassportNumber>
-    <EnrolleePassportPersonalNumber>353255235235</EnrolleePassportPersonalNumber>
-    <EnrolleePassportIssuedBy>Пинским ГОВД</EnrolleePassportIssuedBy>
-    <EnrolleeDateOfIssue>2010-08-03T00:00:00</EnrolleeDateOfIssue>
-    <EnrolleeDateExpiry>2020-08-03T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>Брестская об.,г.Пинск,ул.Крайняя 34</EnrolleeAddress>
-    <EnrolleePostcode>225710</EnrolleePostcode>
-    <EnrolleePhoneNumber>+3432532353</EnrolleePhoneNumber>
-    <EnrolleeEducation>среднее</EnrolleeEducation>
-    <EnrolleeLastPlaceOfStudy>СШ №5</EnrolleeLastPlaceOfStudy>
-    <EnrolleeAddressLastPlaceOfStudy>г. Пинск, ул. Христофорова 34</EnrolleeAddressLastPlaceOfStudy>
-    <EnrolleeGraduationDate>2018-08-15T00:00:00</EnrolleeGraduationDate>
-    <EnrolleeNumberCertificateOrDiploma>425325325</EnrolleeNumberCertificateOrDiploma>
-    <EnrolleeAverageGradeOfCertificateOrDiploma>84</EnrolleeAverageGradeOfCertificateOrDiploma>
-    <EnrolleeScoreOfTheFirstEntranceTest>76</EnrolleeScoreOfTheFirstEntranceTest>
-    <EnrolleeScoreOfTheSecondEntranceTest>35</EnrolleeScoreOfTheSecondEntranceTest>
-    <EnrolleeScoreOfTheThirdEntranceTest>67</EnrolleeScoreOfTheThirdEntranceTest>
-  </EnrolleeSend>
-  <EnrolleeSend>
     <Id>70</Id>
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
@@ -632,9 +605,10 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>1070</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
+    <IdDirectionTraining>9</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-11-29T22:47:50.38</EnrolleeDateOfRegistration>
+    <NameConcession>без вступительных испытаний</NameConcession>
+    <EnrolleeDateOfRegistration>2019-11-30T20:55:22.23</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>5</EnrolleeFirstname>
     <EnrolleeLastname>1212</EnrolleeLastname>
     <EnrolleePatronymic>5</EnrolleePatronymic>
@@ -647,7 +621,7 @@
     <EnrolleeDateOfIssue>2015-04-02T00:00:00</EnrolleeDateOfIssue>
     <EnrolleeDateExpiry>2015-04-02T00:00:00</EnrolleeDateExpiry>
     <EnrolleeAddress>5</EnrolleeAddress>
-    <EnrolleePostcode>5</EnrolleePostcode>
+    <EnrolleePostcode />
     <EnrolleePhoneNumber>5</EnrolleePhoneNumber>
     <EnrolleeEducation>5</EnrolleeEducation>
     <EnrolleeLastPlaceOfStudy>5</EnrolleeLastPlaceOfStudy>
@@ -658,8 +632,8 @@
     <EnrolleeScoreOfTheFirstEntranceTest>5</EnrolleeScoreOfTheFirstEntranceTest>
     <EnrolleeScoreOfTheSecondEntranceTest>5</EnrolleeScoreOfTheSecondEntranceTest>
     <EnrolleeScoreOfTheThirdEntranceTest>5</EnrolleeScoreOfTheThirdEntranceTest>
-    <EnrolleeEmail>5</EnrolleeEmail>
-    <EnrolleeAdditionalInformation>5</EnrolleeAdditionalInformation>
+    <EnrolleeEmail />
+    <EnrolleeAdditionalInformation />
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>1071</Id>
@@ -846,36 +820,5 @@
     <EnrolleeScoreOfTheThirdEntranceTest>4</EnrolleeScoreOfTheThirdEntranceTest>
     <EnrolleeEmail>4</EnrolleeEmail>
     <EnrolleeAdditionalInformation>4</EnrolleeAdditionalInformation>
-  </EnrolleeSend>
-  <EnrolleeSend>
-    <Id>2066</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
-    <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-11-30T14:23:53.623</EnrolleeDateOfRegistration>
-    <EnrolleeFirstname>5</EnrolleeFirstname>
-    <EnrolleeLastname>5</EnrolleeLastname>
-    <EnrolleePatronymic>5</EnrolleePatronymic>
-    <EnrolleeSex>женский</EnrolleeSex>
-    <EnrolleeDateOfBirth>2015-05-02T00:00:00</EnrolleeDateOfBirth>
-    <EnrolleePassportSeries>5</EnrolleePassportSeries>
-    <EnrolleePassportNumber>5</EnrolleePassportNumber>
-    <EnrolleePassportPersonalNumber>5</EnrolleePassportPersonalNumber>
-    <EnrolleePassportIssuedBy>5</EnrolleePassportIssuedBy>
-    <EnrolleeDateOfIssue>2015-05-02T00:00:00</EnrolleeDateOfIssue>
-    <EnrolleeDateExpiry>2015-05-02T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>5</EnrolleeAddress>
-    <EnrolleePostcode>5</EnrolleePostcode>
-    <EnrolleePhoneNumber>5</EnrolleePhoneNumber>
-    <EnrolleeEducation>5</EnrolleeEducation>
-    <EnrolleeLastPlaceOfStudy>5</EnrolleeLastPlaceOfStudy>
-    <EnrolleeAddressLastPlaceOfStudy>5</EnrolleeAddressLastPlaceOfStudy>
-    <EnrolleeGraduationDate>2015-05-02T00:00:00</EnrolleeGraduationDate>
-    <EnrolleeNumberCertificateOrDiploma>5</EnrolleeNumberCertificateOrDiploma>
-    <EnrolleeAverageGradeOfCertificateOrDiploma>5</EnrolleeAverageGradeOfCertificateOrDiploma>
-    <EnrolleeScoreOfTheFirstEntranceTest>55</EnrolleeScoreOfTheFirstEntranceTest>
-    <EnrolleeScoreOfTheSecondEntranceTest>5</EnrolleeScoreOfTheSecondEntranceTest>
-    <EnrolleeScoreOfTheThirdEntranceTest>5</EnrolleeScoreOfTheThirdEntranceTest>
-    <EnrolleeEmail>5</EnrolleeEmail>
-    <EnrolleeAdditionalInformation>5</EnrolleeAdditionalInformation>
   </EnrolleeSend>
 </ArrayOfEnrolleeSend>

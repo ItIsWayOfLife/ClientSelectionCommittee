@@ -43,8 +43,6 @@ namespace ClientSelectionCommittee
         public string EnrolleeEmail { get; set; }
         public string EnrolleeAdditionalInformation { get; set; }
 
-
-
         // запись в xml
         public static void WriteToXml(string words)
         {
@@ -88,7 +86,5 @@ namespace ClientSelectionCommittee
 
             return xmlData;
         }
-
     }
-
 }

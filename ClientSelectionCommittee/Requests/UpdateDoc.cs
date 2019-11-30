@@ -8,21 +8,21 @@ using System.Windows.Forms;
 
 namespace ClientSelectionCommittee
 {
-    class AddDoc
+    class UpdateDoc
     {
-        public string AddDocum(List<DocumentsSend> documentsSends)
+        public string Update(DocumentsSend doc)
         {
-            DocumentsSend.DataSerializable(documentsSends);
+            doc.ThisSerializable();
 
             // заголовок
-            string message = "AddDoc ";
+            string message = "UpdateDoc ";
             // добавление заголовка
-            message += DocumentsSend.ReadToXml();
+            message += doc.ReadToXmlOne();
 
             TcpClient client = null;
             try
             {
-                client = new TcpClient("127.0.0.1", 1234);
+                client = GetTcpClient.GetTcpClient_;
                 NetworkStream stream = client.GetStream();
 
                 // Преобразуем сообщение в массив байтов

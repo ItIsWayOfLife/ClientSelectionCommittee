@@ -18,7 +18,7 @@ namespace ClientSelectionCommittee
             TcpClient client = null;
             try
             {
-                client = new TcpClient("127.0.0.1", 1234);
+                client = GetTcpClient.GetTcpClient_;
                 NetworkStream stream = client.GetStream();
 
                 // Преобразуем сообщение в массив байтов

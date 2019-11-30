@@ -46,22 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddDoc.cs" />
-    <Compile Include="AddDocForm.cs">
+    <Compile Include="Requests\AddDoc.cs" />
+    <Compile Include="Form\AddDocForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddDocForm.Designer.cs">
+    <Compile Include="Form\AddDocForm.Designer.cs">
       <DependentUpon>AddDocForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteDoc.cs" />
-    <Compile Include="DocForm.cs">
+    <Compile Include="GetTcpClient.cs" />
+    <Compile Include="Requests\DeleteDoc.cs" />
+    <Compile Include="Form\DocForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocForm.Designer.cs">
+    <Compile Include="Form\DocForm.Designer.cs">
       <DependentUpon>DocForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DocumentsSend.cs" />
-    <Compile Include="GetDoc.cs" />
+    <Compile Include="Model\DocumentsSend.cs" />
+    <Compile Include="Requests\GetDoc.cs" />
     <Compile Include="Requests\AddEnrollee.cs" />
     <Compile Include="Form\AddEnrolleeForm.cs">
       <SubType>Form</SubType>
@@ -113,18 +114,18 @@
     <Compile Include="Form\UpdateEnrolleeForm.Designer.cs">
       <DependentUpon>UpdateEnrolleeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReturnLastIdEn.cs" />
-    <Compile Include="UpdateDoc.cs" />
-    <Compile Include="UpdateDocForm.cs">
+    <Compile Include="Requests\ReturnLastIdEn.cs" />
+    <Compile Include="Requests\UpdateDoc.cs" />
+    <Compile Include="Form\UpdateDocForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateDocForm.Designer.cs">
+    <Compile Include="Form\UpdateDocForm.Designer.cs">
       <DependentUpon>UpdateDocForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddDocForm.resx">
+    <EmbeddedResource Include="Form\AddDocForm.resx">
       <DependentUpon>AddDocForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DocForm.resx">
+    <EmbeddedResource Include="Form\DocForm.resx">
       <DependentUpon>DocForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\AddEnrolleeForm.resx">
@@ -150,11 +151,12 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Form\UpdateEnrolleeForm.resx">
       <DependentUpon>UpdateEnrolleeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateDocForm.resx">
+    <EmbeddedResource Include="Form\UpdateDocForm.resx">
       <DependentUpon>UpdateDocForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -170,6 +172,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
