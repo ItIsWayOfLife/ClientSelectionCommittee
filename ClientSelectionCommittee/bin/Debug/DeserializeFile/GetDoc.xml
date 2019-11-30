@@ -8,24 +8,10 @@
     <Description>4</Description>
   </DocumentsSend>
   <DocumentsSend>
-    <Id>32</Id>
-    <IdEnrollee>2066</IdEnrollee>
-    <NameDocument>4</NameDocument>
-    <NumberDocument>4</NumberDocument>
-    <Description>4</Description>
-  </DocumentsSend>
-  <DocumentsSend>
     <Id>33</Id>
     <IdEnrollee>2066</IdEnrollee>
     <NameDocument>4</NameDocument>
     <NumberDocument>4</NumberDocument>
     <Description>4</Description>
-  </DocumentsSend>
-  <DocumentsSend>
-    <Id>34</Id>
-    <IdEnrollee>2066</IdEnrollee>
-    <NameDocument>1</NameDocument>
-    <NumberDocument>1</NumberDocument>
-    <Description>1</Description>
   </DocumentsSend>
 </ArrayOfDocumentsSend>

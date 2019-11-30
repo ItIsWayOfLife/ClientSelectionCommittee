@@ -15,11 +15,15 @@ namespace ClientSelectionCommittee
         // абитуриент
         EnrolleeSend enrollee = null;
 
+        List<DocumentsSend> documentsSends = null;
+
         public DocForm(EnrolleeSend enrollee)
         {
             InitializeComponent();
             this.enrollee = enrollee;
             toolStripLabel2.Text = enrollee.Id.ToString();
+            documentsSends = new GetDoc().GetData(enrollee.Id);
+
         }
 
         private void DocForm_Load(object sender, EventArgs e)
@@ -29,7 +33,7 @@ namespace ClientSelectionCommittee
 
         private void DrawData()
         {
-            foreach (DocumentsSend d in new GetDoc().GetData(enrollee.Id))
+            foreach (DocumentsSend d in documentsSends)
             {
                 // id нов строки
                 int rowNumber = dataGridView1.Rows.Add();
@@ -39,6 +43,36 @@ namespace ClientSelectionCommittee
                 dataGridView1.Rows[rowNumber].Cells[2].Value = d.NumberDocument;
                 dataGridView1.Rows[rowNumber].Cells[3].Value = d.Description;
             }
+        }
+
+        // возв выдел док
+        private DocumentsSend FlagDoc()
+        {
+            DocumentsSend doc = null;
+            try
+            {
+                // индекс строки а не id аби
+                int index = dataGridView1.CurrentRow.Index;
+
+                foreach (DocumentsSend d in documentsSends)
+                {
+                    if ((int)dataGridView1[0, index].Value == d.Id)
+                    {
+                        doc = d;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                return doc;
+            }
+
+            return doc;
+        }
+
+        private void ToolStripButton3_Click(object sender, EventArgs e)
+        {
+           new DeleteDoc().Delete(FlagDoc().Id);
         }
     }
 }

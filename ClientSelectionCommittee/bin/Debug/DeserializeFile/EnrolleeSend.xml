@@ -878,35 +878,4 @@
     <EnrolleeEmail>5</EnrolleeEmail>
     <EnrolleeAdditionalInformation>5</EnrolleeAdditionalInformation>
   </EnrolleeSend>
-  <EnrolleeSend>
-    <Id>2067</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
-    <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-11-30T14:30:46.717</EnrolleeDateOfRegistration>
-    <EnrolleeFirstname>5</EnrolleeFirstname>
-    <EnrolleeLastname>ц</EnrolleeLastname>
-    <EnrolleePatronymic>5</EnrolleePatronymic>
-    <EnrolleeSex>женский</EnrolleeSex>
-    <EnrolleeDateOfBirth>2015-05-02T00:00:00</EnrolleeDateOfBirth>
-    <EnrolleePassportSeries>5</EnrolleePassportSeries>
-    <EnrolleePassportNumber>5</EnrolleePassportNumber>
-    <EnrolleePassportPersonalNumber>5</EnrolleePassportPersonalNumber>
-    <EnrolleePassportIssuedBy>5</EnrolleePassportIssuedBy>
-    <EnrolleeDateOfIssue>2015-05-02T00:00:00</EnrolleeDateOfIssue>
-    <EnrolleeDateExpiry>2015-05-02T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>5</EnrolleeAddress>
-    <EnrolleePostcode>5</EnrolleePostcode>
-    <EnrolleePhoneNumber>5</EnrolleePhoneNumber>
-    <EnrolleeEducation>5</EnrolleeEducation>
-    <EnrolleeLastPlaceOfStudy>5</EnrolleeLastPlaceOfStudy>
-    <EnrolleeAddressLastPlaceOfStudy>5</EnrolleeAddressLastPlaceOfStudy>
-    <EnrolleeGraduationDate>2015-05-02T00:00:00</EnrolleeGraduationDate>
-    <EnrolleeNumberCertificateOrDiploma>5</EnrolleeNumberCertificateOrDiploma>
-    <EnrolleeAverageGradeOfCertificateOrDiploma>5</EnrolleeAverageGradeOfCertificateOrDiploma>
-    <EnrolleeScoreOfTheFirstEntranceTest>55</EnrolleeScoreOfTheFirstEntranceTest>
-    <EnrolleeScoreOfTheSecondEntranceTest>5</EnrolleeScoreOfTheSecondEntranceTest>
-    <EnrolleeScoreOfTheThirdEntranceTest>5</EnrolleeScoreOfTheThirdEntranceTest>
-    <EnrolleeEmail>5</EnrolleeEmail>
-    <EnrolleeAdditionalInformation>5</EnrolleeAdditionalInformation>
-  </EnrolleeSend>
 </ArrayOfEnrolleeSend>

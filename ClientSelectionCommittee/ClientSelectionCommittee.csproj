@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddDoc.cs" />
+    <Compile Include="DeleteDoc.cs" />
     <Compile Include="DocForm.cs">
       <SubType>Form</SubType>
     </Compile>
