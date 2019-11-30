@@ -104,15 +104,11 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label49 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.NameDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label47 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
@@ -121,6 +117,9 @@
             this.label48 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
+            this.NameDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -389,7 +388,7 @@
             // 
             this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(102, 137);
+            this.comboBox3.Location = new System.Drawing.Point(104, 137);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(180, 21);
             this.comboBox3.TabIndex = 27;
@@ -901,21 +900,12 @@
             this.label14.TabIndex = 0;
             this.label14.Text = "Последнее место учебы";
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(750, 422);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 47);
-            this.button3.TabIndex = 39;
-            this.button3.Text = "Очистить поля";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(616, 428);
+            this.button1.Location = new System.Drawing.Point(753, 377);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 41);
+            this.button1.Size = new System.Drawing.Size(127, 43);
             this.button1.TabIndex = 38;
             this.button1.Text = "Добавить абитуриента";
             this.button1.UseVisualStyleBackColor = true;
@@ -927,9 +917,9 @@
             this.panel10.Controls.Add(this.label49);
             this.panel10.Controls.Add(this.button2);
             this.panel10.Controls.Add(this.dataGridView1);
-            this.panel10.Location = new System.Drawing.Point(309, 494);
+            this.panel10.Location = new System.Drawing.Point(282, 477);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(461, 179);
+            this.panel10.Size = new System.Drawing.Size(598, 147);
             this.panel10.TabIndex = 40;
             // 
             // label49
@@ -944,7 +934,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(377, 8);
+            this.button2.Location = new System.Drawing.Point(506, 8);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 18;
@@ -959,27 +949,10 @@
             this.NameDoc,
             this.Number,
             this.Description});
-            this.dataGridView1.Location = new System.Drawing.Point(5, 37);
+            this.dataGridView1.Location = new System.Drawing.Point(4, 37);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(447, 133);
+            this.dataGridView1.Size = new System.Drawing.Size(577, 107);
             this.dataGridView1.TabIndex = 16;
-            // 
-            // NameDoc
-            // 
-            this.NameDoc.HeaderText = "Название";
-            this.NameDoc.Name = "NameDoc";
-            this.NameDoc.Width = 150;
-            // 
-            // Number
-            // 
-            this.Number.HeaderText = "Номер";
-            this.Number.Name = "Number";
-            // 
-            // Description
-            // 
-            this.Description.HeaderText = "Описание";
-            this.Description.Name = "Description";
-            this.Description.Width = 150;
             // 
             // panel8
             // 
@@ -991,9 +964,9 @@
             this.panel8.Controls.Add(this.label48);
             this.panel8.Controls.Add(this.label51);
             this.panel8.Controls.Add(this.label52);
-            this.panel8.Location = new System.Drawing.Point(4, 428);
+            this.panel8.Location = new System.Drawing.Point(8, 422);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(278, 89);
+            this.panel8.Size = new System.Drawing.Size(270, 89);
             this.panel8.TabIndex = 41;
             // 
             // label47
@@ -1066,14 +1039,32 @@
             this.label52.TabIndex = 16;
             this.label52.Text = "Фамилия:";
             // 
+            // NameDoc
+            // 
+            this.NameDoc.HeaderText = "Название";
+            this.NameDoc.Name = "NameDoc";
+            this.NameDoc.Width = 120;
+            // 
+            // Number
+            // 
+            this.Number.HeaderText = "Номер";
+            this.Number.Name = "Number";
+            this.Number.Width = 160;
+            // 
+            // Description
+            // 
+            this.Description.HeaderText = "Описание";
+            this.Description.Name = "Description";
+            this.Description.Width = 250;
+            // 
             // AddEnrolleeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(905, 686);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(905, 635);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel10);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel5);
@@ -1082,8 +1073,10 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel7);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "AddEnrolleeForm";
-            this.Text = "AddEnrolleeForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Добавление абитуриента";
             this.Load += new System.EventHandler(this.AddEnrolleeForm_Load);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
@@ -1186,15 +1179,11 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NameDoc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Number;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Description;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label46;
@@ -1203,5 +1192,8 @@
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NameDoc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Number;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Description;
     }
 }

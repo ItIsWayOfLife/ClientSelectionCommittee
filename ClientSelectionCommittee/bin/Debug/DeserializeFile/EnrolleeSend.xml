@@ -121,36 +121,6 @@
     <EnrolleeScoreOfTheThirdEntranceTest>60</EnrolleeScoreOfTheThirdEntranceTest>
   </EnrolleeSend>
   <EnrolleeSend>
-    <Id>29</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
-    <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2018-08-26T15:58:00</EnrolleeDateOfRegistration>
-    <EnrolleeFirstname>Денис</EnrolleeFirstname>
-    <EnrolleeLastname>Мосейчук</EnrolleeLastname>
-    <EnrolleePatronymic>Эдуардович</EnrolleePatronymic>
-    <EnrolleeSex>мужской</EnrolleeSex>
-    <EnrolleeDateOfBirth>2001-07-20T00:00:00</EnrolleeDateOfBirth>
-    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
-    <EnrolleePassportNumber>3422425</EnrolleePassportNumber>
-    <EnrolleePassportPersonalNumber>33433435553</EnrolleePassportPersonalNumber>
-    <EnrolleePassportIssuedBy>Гродненским УВД</EnrolleePassportIssuedBy>
-    <EnrolleeDateOfIssue>2014-07-03T00:00:00</EnrolleeDateOfIssue>
-    <EnrolleeDateExpiry>2024-07-03T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>Нродненская об., г.Гродно, ул. Набережная 34,кв. 3</EnrolleeAddress>
-    <EnrolleePostcode>215359</EnrolleePostcode>
-    <EnrolleePhoneNumber>+3452325235323</EnrolleePhoneNumber>
-    <EnrolleeEducation>среднее</EnrolleeEducation>
-    <EnrolleeLastPlaceOfStudy>СШ №21</EnrolleeLastPlaceOfStudy>
-    <EnrolleeAddressLastPlaceOfStudy>г. Гродно, ул. Лошанова 13</EnrolleeAddressLastPlaceOfStudy>
-    <EnrolleeGraduationDate>2018-08-14T00:00:00</EnrolleeGraduationDate>
-    <EnrolleeNumberCertificateOrDiploma>3234343455</EnrolleeNumberCertificateOrDiploma>
-    <EnrolleeAverageGradeOfCertificateOrDiploma>87</EnrolleeAverageGradeOfCertificateOrDiploma>
-    <EnrolleeScoreOfTheFirstEntranceTest>49</EnrolleeScoreOfTheFirstEntranceTest>
-    <EnrolleeScoreOfTheSecondEntranceTest>60</EnrolleeScoreOfTheSecondEntranceTest>
-    <EnrolleeScoreOfTheThirdEntranceTest>57</EnrolleeScoreOfTheThirdEntranceTest>
-    <EnrolleeEmail>tankt34@mail.ru</EnrolleeEmail>
-  </EnrolleeSend>
-  <EnrolleeSend>
     <Id>30</Id>
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
@@ -178,35 +148,6 @@
     <EnrolleeScoreOfTheFirstEntranceTest>59</EnrolleeScoreOfTheFirstEntranceTest>
     <EnrolleeScoreOfTheSecondEntranceTest>84</EnrolleeScoreOfTheSecondEntranceTest>
     <EnrolleeScoreOfTheThirdEntranceTest>45</EnrolleeScoreOfTheThirdEntranceTest>
-  </EnrolleeSend>
-  <EnrolleeSend>
-    <Id>32</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
-    <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
-    <EnrolleeFirstname>Иван</EnrolleeFirstname>
-    <EnrolleeLastname>Васиков</EnrolleeLastname>
-    <EnrolleePatronymic>Павлович</EnrolleePatronymic>
-    <EnrolleeSex>мужской</EnrolleeSex>
-    <EnrolleeDateOfBirth>1998-03-02T00:00:00</EnrolleeDateOfBirth>
-    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
-    <EnrolleePassportNumber>2342332</EnrolleePassportNumber>
-    <EnrolleePassportPersonalNumber>3453646636</EnrolleePassportPersonalNumber>
-    <EnrolleePassportIssuedBy>Пинским ГОВД</EnrolleePassportIssuedBy>
-    <EnrolleeDateOfIssue>2015-05-21T00:00:00</EnrolleeDateOfIssue>
-    <EnrolleeDateExpiry>2025-01-21T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>Брестская об.,г.Пинск, ул.Совецкая 45,кв. 5</EnrolleeAddress>
-    <EnrolleePostcode>224710</EnrolleePostcode>
-    <EnrolleePhoneNumber>+4643634663464</EnrolleePhoneNumber>
-    <EnrolleeEducation>среднее специальное</EnrolleeEducation>
-    <EnrolleeLastPlaceOfStudy>КЛП</EnrolleeLastPlaceOfStudy>
-    <EnrolleeAddressLastPlaceOfStudy>г.Барановичи, ул. Беговая 45 </EnrolleeAddressLastPlaceOfStudy>
-    <EnrolleeGraduationDate>2018-09-25T00:00:00</EnrolleeGraduationDate>
-    <EnrolleeNumberCertificateOrDiploma>35135135</EnrolleeNumberCertificateOrDiploma>
-    <EnrolleeAverageGradeOfCertificateOrDiploma>88</EnrolleeAverageGradeOfCertificateOrDiploma>
-    <EnrolleeScoreOfTheFirstEntranceTest>9</EnrolleeScoreOfTheFirstEntranceTest>
-    <EnrolleeScoreOfTheSecondEntranceTest>8</EnrolleeScoreOfTheSecondEntranceTest>
-    <EnrolleeScoreOfTheThirdEntranceTest>0</EnrolleeScoreOfTheThirdEntranceTest>
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>34</Id>
@@ -239,9 +180,9 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>36</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
+    <IdDirectionTraining>8</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-01T02:30:59.987</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>Полина</EnrolleeFirstname>
     <EnrolleeLastname>Цветова</EnrolleeLastname>
     <EnrolleePatronymic>Эдуардовна</EnrolleePatronymic>
@@ -265,6 +206,8 @@
     <EnrolleeScoreOfTheFirstEntranceTest>65</EnrolleeScoreOfTheFirstEntranceTest>
     <EnrolleeScoreOfTheSecondEntranceTest>45</EnrolleeScoreOfTheSecondEntranceTest>
     <EnrolleeScoreOfTheThirdEntranceTest>0</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail />
+    <EnrolleeAdditionalInformation />
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>37</Id>
@@ -326,9 +269,9 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>70</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
+    <IdDirectionTraining>17</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-11-26T23:00:28.797</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-01T02:31:26.787</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>34</EnrolleeFirstname>
     <EnrolleeLastname>34</EnrolleeLastname>
     <EnrolleePatronymic>34</EnrolleePatronymic>
@@ -450,9 +393,9 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>1065</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
+    <IdDirectionTraining>13</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-11-29T22:32:01.593</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-01T02:33:59.29</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>11</EnrolleeFirstname>
     <EnrolleeLastname>11</EnrolleeLastname>
     <EnrolleePatronymic>11</EnrolleePatronymic>
@@ -791,34 +734,34 @@
     <EnrolleeAdditionalInformation>4</EnrolleeAdditionalInformation>
   </EnrolleeSend>
   <EnrolleeSend>
-    <Id>2065</Id>
+    <Id>3066</Id>
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-11-30T10:41:12.223</EnrolleeDateOfRegistration>
-    <EnrolleeFirstname>4</EnrolleeFirstname>
-    <EnrolleeLastname>4</EnrolleeLastname>
-    <EnrolleePatronymic>4</EnrolleePatronymic>
-    <EnrolleeSex>женский</EnrolleeSex>
-    <EnrolleeDateOfBirth>2015-05-03T00:00:00</EnrolleeDateOfBirth>
-    <EnrolleePassportSeries>4</EnrolleePassportSeries>
-    <EnrolleePassportNumber>4</EnrolleePassportNumber>
-    <EnrolleePassportPersonalNumber>4</EnrolleePassportPersonalNumber>
-    <EnrolleePassportIssuedBy>4</EnrolleePassportIssuedBy>
-    <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
-    <EnrolleeDateExpiry>2015-05-03T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>4</EnrolleeAddress>
-    <EnrolleePostcode>4</EnrolleePostcode>
-    <EnrolleePhoneNumber>4</EnrolleePhoneNumber>
-    <EnrolleeEducation>44</EnrolleeEducation>
-    <EnrolleeLastPlaceOfStudy>4</EnrolleeLastPlaceOfStudy>
-    <EnrolleeAddressLastPlaceOfStudy>4</EnrolleeAddressLastPlaceOfStudy>
-    <EnrolleeGraduationDate>2015-05-03T00:00:00</EnrolleeGraduationDate>
-    <EnrolleeNumberCertificateOrDiploma>4</EnrolleeNumberCertificateOrDiploma>
-    <EnrolleeAverageGradeOfCertificateOrDiploma>4</EnrolleeAverageGradeOfCertificateOrDiploma>
-    <EnrolleeScoreOfTheFirstEntranceTest>4</EnrolleeScoreOfTheFirstEntranceTest>
-    <EnrolleeScoreOfTheSecondEntranceTest>4</EnrolleeScoreOfTheSecondEntranceTest>
-    <EnrolleeScoreOfTheThirdEntranceTest>4</EnrolleeScoreOfTheThirdEntranceTest>
-    <EnrolleeEmail>4</EnrolleeEmail>
-    <EnrolleeAdditionalInformation>4</EnrolleeAdditionalInformation>
+    <EnrolleeDateOfRegistration>2019-12-01T02:05:12.29</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Сергей</EnrolleeFirstname>
+    <EnrolleeLastname>Серый</EnrolleeLastname>
+    <EnrolleePatronymic>Сергеевич</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2002-02-01T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>123223</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>1242443</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Пинским ГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2018-02-02T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2025-02-02T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>г. Пинск</EnrolleeAddress>
+    <EnrolleePostcode>225710</EnrolleePostcode>
+    <EnrolleePhoneNumber>2323221</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>СШ 1 г. Пинска</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г. Пинск, ул. Брестская 13</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2020-02-02T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>3424</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>79</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>43</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>67</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>86</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>myemail@bk.ry</EnrolleeEmail>
+    <EnrolleeAdditionalInformation />
   </EnrolleeSend>
 </ArrayOfEnrolleeSend>

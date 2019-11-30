@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <EnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>1070</Id>
-  <IdDirectionTraining>9</IdDirectionTraining>
+  <Id>1065</Id>
+  <IdDirectionTraining>13</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
-  <NameConcession>без вступительных испытаний</NameConcession>
-  <EnrolleeDateOfRegistration>2019-11-29T22:47:50.38</EnrolleeDateOfRegistration>
-  <EnrolleeFirstname>5</EnrolleeFirstname>
-  <EnrolleeLastname>1212</EnrolleeLastname>
-  <EnrolleePatronymic>5</EnrolleePatronymic>
-  <EnrolleeSex>женский</EnrolleeSex>
-  <EnrolleeDateOfBirth>2015-04-02T00:00:00</EnrolleeDateOfBirth>
-  <EnrolleePassportSeries>5</EnrolleePassportSeries>
-  <EnrolleePassportNumber>5</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>5</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>5</EnrolleePassportIssuedBy>
-  <EnrolleeDateOfIssue>2015-04-02T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2015-04-02T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>5</EnrolleeAddress>
-  <EnrolleePostcode />
-  <EnrolleePhoneNumber>5</EnrolleePhoneNumber>
-  <EnrolleeEducation>5</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>5</EnrolleeLastPlaceOfStudy>
-  <EnrolleeAddressLastPlaceOfStudy>5</EnrolleeAddressLastPlaceOfStudy>
-  <EnrolleeGraduationDate>2015-04-02T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>5</EnrolleeNumberCertificateOrDiploma>
-  <EnrolleeAverageGradeOfCertificateOrDiploma>5</EnrolleeAverageGradeOfCertificateOrDiploma>
-  <EnrolleeScoreOfTheFirstEntranceTest>5</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>5</EnrolleeScoreOfTheSecondEntranceTest>
-  <EnrolleeScoreOfTheThirdEntranceTest>5</EnrolleeScoreOfTheThirdEntranceTest>
-  <EnrolleeEmail />
-  <EnrolleeAdditionalInformation />
+  <NameConcession>без льготы</NameConcession>
+  <EnrolleeDateOfRegistration>2019-11-29T22:32:01.593</EnrolleeDateOfRegistration>
+  <EnrolleeFirstname>11</EnrolleeFirstname>
+  <EnrolleeLastname>11</EnrolleeLastname>
+  <EnrolleePatronymic>11</EnrolleePatronymic>
+  <EnrolleeSex>мужской</EnrolleeSex>
+  <EnrolleeDateOfBirth>2010-02-01T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleePassportSeries>11</EnrolleePassportSeries>
+  <EnrolleePassportNumber>11</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>11</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>11</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2010-02-01T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2010-02-01T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>11</EnrolleeAddress>
+  <EnrolleePostcode>11</EnrolleePostcode>
+  <EnrolleePhoneNumber>11</EnrolleePhoneNumber>
+  <EnrolleeEducation>11</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>11</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>11</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeGraduationDate>2010-02-01T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>11</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>11</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeScoreOfTheFirstEntranceTest>11</EnrolleeScoreOfTheFirstEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>11</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>11</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleeEmail>11</EnrolleeEmail>
+  <EnrolleeAdditionalInformation>11</EnrolleeAdditionalInformation>
 </EnrolleeSend>

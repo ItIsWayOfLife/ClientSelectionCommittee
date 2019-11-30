@@ -1,24 +1,2 @@
 <?xml version="1.0"?>
-<ArrayOfDocumentsSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <DocumentsSend>
-    <Id>28</Id>
-    <IdEnrollee>2065</IdEnrollee>
-    <NameDocument>1</NameDocument>
-    <NumberDocument>1</NumberDocument>
-    <Description>1</Description>
-  </DocumentsSend>
-  <DocumentsSend>
-    <Id>29</Id>
-    <IdEnrollee>2065</IdEnrollee>
-    <NameDocument>1</NameDocument>
-    <NumberDocument>1</NumberDocument>
-    <Description>1</Description>
-  </DocumentsSend>
-  <DocumentsSend>
-    <Id>30</Id>
-    <IdEnrollee>2065</IdEnrollee>
-    <NameDocument>1</NameDocument>
-    <NumberDocument>1</NumberDocument>
-    <Description>1</Description>
-  </DocumentsSend>
-</ArrayOfDocumentsSend>
+<ArrayOfDocumentsSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />

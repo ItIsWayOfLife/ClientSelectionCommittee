@@ -145,6 +145,8 @@ namespace ClientSelectionCommittee
 
             DataFilling();
             DrawInfoTranDir();
+            if (enrolleeSend.NameConcession == null || enrolleeSend.NameConcession == "")
+                comboBoxCons.Text = "без льготы";
         }
 
         private void Button1_Click(object sender, EventArgs e)

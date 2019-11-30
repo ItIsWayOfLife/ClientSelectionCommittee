@@ -94,7 +94,6 @@
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label40 = new System.Windows.Forms.Label();
@@ -133,7 +132,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 238);
+            this.panel1.Location = new System.Drawing.Point(12, 124);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(278, 189);
             this.panel1.TabIndex = 18;
@@ -274,7 +273,7 @@
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label15);
-            this.panel3.Location = new System.Drawing.Point(296, 238);
+            this.panel3.Location = new System.Drawing.Point(296, 124);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(298, 237);
             this.panel3.TabIndex = 19;
@@ -433,7 +432,7 @@
             this.panel6.Controls.Add(this.label23);
             this.panel6.Controls.Add(this.textBoxPhoneNum);
             this.panel6.Controls.Add(this.textBoxPostCode);
-            this.panel6.Location = new System.Drawing.Point(600, 238);
+            this.panel6.Location = new System.Drawing.Point(600, 124);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(297, 189);
             this.panel6.TabIndex = 20;
@@ -551,7 +550,7 @@
             this.panel4.Controls.Add(this.label24);
             this.panel4.Controls.Add(this.label25);
             this.panel4.Controls.Add(this.label26);
-            this.panel4.Location = new System.Drawing.Point(12, 448);
+            this.panel4.Location = new System.Drawing.Point(12, 319);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(278, 106);
             this.panel4.TabIndex = 36;
@@ -630,7 +629,7 @@
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.label14);
-            this.panel2.Location = new System.Drawing.Point(296, 481);
+            this.panel2.Location = new System.Drawing.Point(296, 367);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(298, 113);
             this.panel2.TabIndex = 38;
@@ -709,7 +708,7 @@
             this.panel5.Controls.Add(this.label28);
             this.panel5.Controls.Add(this.label29);
             this.panel5.Controls.Add(this.label30);
-            this.panel5.Location = new System.Drawing.Point(600, 433);
+            this.panel5.Location = new System.Drawing.Point(600, 319);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(294, 106);
             this.panel5.TabIndex = 37;
@@ -778,23 +777,14 @@
             this.label30.TabIndex = 0;
             this.label30.Text = "Баллы вступ. испытания";
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(787, 592);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(172, 44);
-            this.button3.TabIndex = 41;
-            this.button3.Text = "Очистить поля";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(600, 592);
+            this.button1.Location = new System.Drawing.Point(750, 438);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(181, 47);
+            this.button1.Size = new System.Drawing.Size(144, 42);
             this.button1.TabIndex = 40;
-            this.button1.Text = "Изменить абитуриента";
+            this.button1.Text = "Изменить данные";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
@@ -810,9 +800,9 @@
             this.panel7.Controls.Add(this.label34);
             this.panel7.Controls.Add(this.label41);
             this.panel7.Controls.Add(this.label33);
-            this.panel7.Location = new System.Drawing.Point(16, 103);
+            this.panel7.Location = new System.Drawing.Point(12, 12);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(600, 106);
+            this.panel7.Size = new System.Drawing.Size(752, 106);
             this.panel7.TabIndex = 42;
             // 
             // label40
@@ -907,7 +897,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(652, 103);
+            this.button2.Location = new System.Drawing.Point(770, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(115, 34);
             this.button2.TabIndex = 43;
@@ -917,9 +907,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(652, 145);
+            this.button4.Location = new System.Drawing.Point(770, 52);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(115, 41);
+            this.button4.Size = new System.Drawing.Size(115, 33);
             this.button4.TabIndex = 44;
             this.button4.Text = "Обновить";
             this.button4.UseVisualStyleBackColor = true;
@@ -929,11 +919,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(969, 651);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(910, 500);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel7);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel2);
@@ -941,8 +931,10 @@
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "UpdateEnrolleeForm";
-            this.Text = "UpdateEnrollee";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Обновление абитуриента";
             this.Load += new System.EventHandler(this.UpdateEnrollee_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -1030,7 +1022,6 @@
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label40;

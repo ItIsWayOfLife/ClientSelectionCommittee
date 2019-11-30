@@ -80,6 +80,12 @@ namespace ClientSelectionCommittee
         // заполн таблицы
         private void DrawData()
         {
+            // удаление данных с datagv (обратный цикл)
+            for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+            {
+                dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+            }
+
             foreach (TrainingDirectionSend t in trainingDirectionSends)
             {
                 // id нов строки
@@ -98,6 +104,12 @@ namespace ClientSelectionCommittee
 
         private void DrawData(List<TrainingDirectionSend> tds)
         {
+            // удаление данных с datagv (обратный цикл)
+            for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+            {
+                dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+            }
+
             foreach (TrainingDirectionSend t in tds)
             {
                 // id нов строки
@@ -175,12 +187,7 @@ namespace ClientSelectionCommittee
         // запись выбранного направл
         private void Button1_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writer = new StreamWriter(@"UpdateDTEnrollee.txt"))
-            {
-                writer.Write(FlagTrainingDirection().Id.ToString());
-            }
-
-            this.Close();
+           
         }
 
         // событие откт нач форму
@@ -208,11 +215,6 @@ namespace ClientSelectionCommittee
             }
             else if (toolStripComboBox2.Text == arraySearch[1])
             {
-                // удаление данных с datagv (обратный цикл)
-                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
-                {
-                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
-                }
                 int id;
                 bool bl = Int32.TryParse(toolStripTextBox1.Text, out id);
                 if (bl)
@@ -226,62 +228,26 @@ namespace ClientSelectionCommittee
             }
             else if (toolStripComboBox2.Text == arraySearch[2])
             {
-                // удаление данных с datagv (обратный цикл)
-                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
-                {
-                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
-                }
-
                 DrawData(trainingDirectionSends.Where(p=>p.NameBudgetOrCharge.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
             }
             else if (toolStripComboBox2.Text == arraySearch[3])
             {
-                // удаление данных с datagv (обратный цикл)
-                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
-                {
-                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
-                }
-
                 DrawData(trainingDirectionSends.Where(p => p.NameFormStudy.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
             }
             else if (toolStripComboBox2.Text == arraySearch[4])
             {
-                // удаление данных с datagv (обратный цикл)
-                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
-                {
-                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
-                }
-
                 DrawData(trainingDirectionSends.Where(p => p.NameTrainingPeriod.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
             }
             else if (toolStripComboBox2.Text == arraySearch[5])
             {
-                // удаление данных с datagv (обратный цикл)
-                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
-                {
-                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
-                }
-
                 DrawData(trainingDirectionSends.Where(p => p.CodeSpecialty.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
             }
             else if (toolStripComboBox2.Text == arraySearch[6])
             {
-                // удаление данных с datagv (обратный цикл)
-                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
-                {
-                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
-                }
-
                 DrawData(trainingDirectionSends.Where(p => p.ShortNameDepartment.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
             }
             else if (toolStripComboBox2.Text == arraySearch[7])
             {
-                // удаление данных с datagv (обратный цикл)
-                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
-                {
-                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
-                }
-
                 DrawData(trainingDirectionSends.Where(p => p.FullNameSpecialty.ToLower().Contains(toolStripTextBox1.Text.ToLower())).ToList());
             }
 
@@ -298,16 +264,25 @@ namespace ClientSelectionCommittee
 
         private void ToolStripButton8_Click(object sender, EventArgs e)
         {
-            if (toolStrip1.Text != arrayFac[0])
-            {
-                // удаление данных с datagv (обратный цикл)
-                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
-                {
-                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
-                }
-
-                DrawData(trainingDirectionSends.Where(p => p.ShortNameFaculty== toolStripComboBox1.Text).ToList());
+            if (toolStripComboBox1.Text.ToLower() != arrayFac[0].ToLower())
+            {              
+                DrawData(trainingDirectionSends.Where(p => p.ShortNameFaculty == toolStripComboBox1.Text).ToList());
             }
+            else
+            {
+                DrawData();
+            }
+           
+        }
+
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter(@"UpdateDTEnrollee.txt"))
+            {
+                writer.Write(FlagTrainingDirection().Id.ToString());
+            }
+
+            this.Close();
         }
     }
 }
