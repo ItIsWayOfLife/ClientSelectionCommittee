@@ -148,40 +148,43 @@ namespace ClientSelectionCommittee
             label47.Text =  enrolleeSend_.EnrolleeFirstname;
         }
 
-        // добавление документации
-        //private void AddDocument()
-        //{
-        //    if (enrolleeSend_ != null)
-        //    {
+       // добавление документации
+        private void AddDocument()
+        {
+            if (enrolleeSend_ != null)
+            {
 
-        //        // нов список документов
-        //        List<DocumentsSend> documents_ = new List<DocumentsSend>();
+                // нов список документов
+                List<DocumentsSend> documents_ = new List<DocumentsSend>();
 
-        //        for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
-        //        {
-        //            documents_.Add(new DocumentsSend(
-        //                Convert.ToInt32(label45.Text),
-        //                 dataGridView1[0, i].Value.ToString(),
-        //                  dataGridView1[1, i].Value.ToString(),
-        //                   dataGridView1[2, i].Value.ToString()
-        //                ));
-        //        }
+                for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
+                {
+                    documents_.Add(new DocumentsSend(
+                        Convert.ToInt32(label45.Text),
+                         dataGridView1[0, i].Value.ToString(),
+                          dataGridView1[1, i].Value.ToString(),
+                           dataGridView1[2, i].Value.ToString()
+                        ));
+                }
 
+                new AddDoc().AddDocum(documents_);                
+            }
+            else
+                MessageBox.Show("добавьте абитуриента");
 
-        //        // добавление в бд
-        //        foreach (Document d in documents_)
-        //        {
-        //            d.Add();
-        //        }
-        //    }
-        //    else
-        //        MessageBox.Show("Добавьте абитуриента");
-
-        //}
+        }
 
         private void Button2_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                AddDocument();
+                MessageBox.Show("Успешно добавлено");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка: "+ex);
+            }
         }
     }
 }

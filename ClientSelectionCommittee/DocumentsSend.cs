@@ -17,48 +17,55 @@ namespace ClientSelectionCommittee
         public string NumberDocument { get; set; }
         public string Description { get; set; }
 
-      
+        public DocumentsSend()
+        { }
 
-        //public static void DataSerializable()
-        //{
-        //    List<DocumentsSend> documentsSends = GetData();
+        public DocumentsSend(int idEnr, string nameDoc, string numberDoc, string descrip)
+        {
+            IdEnrollee = idEnr;
+            NameDocument = nameDoc;
+            NumberDocument = numberDoc;
+            Description = descrip;
+        }
 
-        //    XmlSerializer formatter = new XmlSerializer(typeof(List<DocumentsSend>));
+        public static void DataSerializable(List<DocumentsSend> documentsSends)
+        { 
+            XmlSerializer formatter = new XmlSerializer(typeof(List<DocumentsSend>));
 
-        //    // получаем поток, куда будем записывать сериализованный объект
-        //    using (FileStream fs = new FileStream("SerializableFile/DocumentsSend.xml", FileMode.Create))
-        //    {
-        //        formatter.Serialize(fs, documentsSends);
-        //    }
-        //}
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("SerializableFile/DocumentsSend.xml", FileMode.Create))
+            {
+                formatter.Serialize(fs, documentsSends);
+            }
+        }
 
-        //public static List<DocumentsSend> DataDeserialize()
-        //{
-        //    List<DocumentsSend> documentsSends = null;
+        public static List<DocumentsSend> DataDeserialize()
+        {
+            List<DocumentsSend> documentsSends = null;
 
-        //    using (FileStream fs = new FileStream("DeserializeFile/DocumentsSend.xml", FileMode.Open))
-        //    {
-        //        XmlSerializer formatter = new XmlSerializer(typeof(List<DocumentsSend>));
+            using (FileStream fs = new FileStream("DeserializeFile/DocumentsSend.xml", FileMode.Open))
+            {
+                XmlSerializer formatter = new XmlSerializer(typeof(List<DocumentsSend>));
 
-        //        documentsSends = (List<DocumentsSend>)formatter.Deserialize(fs);
-        //    }
+                documentsSends = (List<DocumentsSend>)formatter.Deserialize(fs);
+            }
 
-        //    return documentsSends;
-        //}
+            return documentsSends;
+        }
 
-        //// запись в xml, возвращает xml запись 
-        //public static string ReadToXml()
-        //{
-        //    string xmlData = null;
+        // запись в xml, возвращает xml запись 
+        public static string ReadToXml()
+        {
+            string xmlData = null;
 
-        //    using (StreamReader reader = new StreamReader("SerializableFile/DocumentsSend.xml"))
-        //    {
-        //        xmlData = reader.ReadToEnd();
-        //    }
+            using (StreamReader reader = new StreamReader("SerializableFile/DocumentsSend.xml"))
+            {
+                xmlData = reader.ReadToEnd();
+            }
 
-        //    return xmlData;
-        //}
+            return xmlData;
+        }
 
-      
+
     }
 }

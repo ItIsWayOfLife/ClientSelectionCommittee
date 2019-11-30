@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddDoc.cs" />
     <Compile Include="DocumentsSend.cs" />
     <Compile Include="Requests\AddEnrollee.cs" />
     <Compile Include="Form\AddEnrolleeForm.cs">
