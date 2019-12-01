@@ -81,14 +81,48 @@ namespace ClientSelectionCommittee
             }
         }
 
+        string[] arraySearch = new string[] { "Поиск", "Номеру направления","Личному номеру абит","Операции"}; 
+
         private void AdminForm_Load(object sender, EventArgs e)
         {
             toolStripLabel4.Text = $"{userSend.Lastname} {userSend.Firstname[0]}. {userSend.Patronymic[0]}.";
+            toolStripComboBox1.Items.AddRange(arraySearch);
+            toolStripComboBox1.Text = arraySearch[0];
         }
 
         private void ToolStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
+            
+        }
 
+        private void ToolStripButton1_Click(object sender, EventArgs e)
+        {
+            if (toolStripComboBox1.Text != arraySearch[0] || toolStripTextBox1.Text != "")
+            {
+                if (toolStripComboBox1.Text == arraySearch[1])
+                {
+                    DrawData(historySends.Where(p=>p.Id.ToString().ToLower()==toolStripTextBox1.Text.ToString()).ToList());
+                }
+                else if (toolStripComboBox1.Text == arraySearch[2])
+                {
+                    DrawData(historySends.Where(p => p.IdEnrollee.ToString().ToLower().Contains(toolStripTextBox1.Text.ToString())).ToList());
+                }
+                else if (toolStripComboBox1.Text == arraySearch[3])
+                {
+                    DrawData(historySends.Where(p => p.Operation.ToString().ToLower().Contains(toolStripTextBox1.Text.ToString())).ToList());
+                }
+            }
+            else
+            {
+                MessageBox.Show("Выберите по каким критериям будет вестись поиск и укажите что ищите");
+            }
+        }
+
+        private void ToolStripButton3_Click(object sender, EventArgs e)
+        {
+            DrawData();
+            toolStripComboBox1.Text = arraySearch[0];
+            toolStripTextBox1.Text = "";
         }
     }
 }
