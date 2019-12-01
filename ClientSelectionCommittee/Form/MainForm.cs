@@ -193,7 +193,7 @@ namespace ClientSelectionCommittee
         // событие откт нач форму
         private void MainForm_FormClosed_1(object sender, FormClosedEventArgs e)
         {
-          //   UserSend.Exit();
+            new UserExit().Exit(userSend.Id);
             Form loginForm = Application.OpenForms[0];
             loginForm.Show();
         }
@@ -289,6 +289,19 @@ namespace ClientSelectionCommittee
         {
             Chat chat = new Chat(userSend);
             chat.Show();
+        }
+
+        private void АдминПанельToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (userSend.AdminRights == "+")
+            {
+                AdminForm adminForm = new AdminForm(userSend);
+                adminForm.Show();
+            }
+            else
+            {
+                MessageBox.Show("У вас нет прав администратора", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

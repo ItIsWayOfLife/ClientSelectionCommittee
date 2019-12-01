@@ -55,7 +55,11 @@ namespace ClientSelectionCommittee
 
                 if (message.Contains("Ошибка"))
                 {
-                    throw new Exception("Ошибка сервера");                  
+                    MessageBox.Show(message);
+                }
+                else if (message == null)
+                {
+                    MessageBox.Show("Сервер не отвечает");
                 }
                 else
                 {
@@ -73,7 +77,7 @@ namespace ClientSelectionCommittee
             }
             catch (Exception)
             {
-                return null;
+                MessageBox.Show("Сервер не отвечает");
             }
             finally
             {

@@ -17,3 +17,4 @@ D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\
 D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.AddDocForm.resources
 D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.UpdateDocForm.resources
 D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.Chat.resources
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.AdminForm.resources
