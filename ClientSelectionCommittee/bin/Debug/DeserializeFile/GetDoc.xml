@@ -1,2 +1,17 @@
 <?xml version="1.0"?>
-<ArrayOfDocumentsSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfDocumentsSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentsSend>
+    <Id>2040</Id>
+    <IdEnrollee>21</IdEnrollee>
+    <NameDocument>12</NameDocument>
+    <NumberDocument>3443334</NumberDocument>
+    <Description>3</Description>
+  </DocumentsSend>
+  <DocumentsSend>
+    <Id>2041</Id>
+    <IdEnrollee>21</IdEnrollee>
+    <NameDocument>1</NameDocument>
+    <NumberDocument>777</NumberDocument>
+    <Description>777</Description>
+  </DocumentsSend>
+</ArrayOfDocumentsSend>

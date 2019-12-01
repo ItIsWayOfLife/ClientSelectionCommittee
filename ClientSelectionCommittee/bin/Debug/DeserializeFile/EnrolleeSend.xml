@@ -764,4 +764,35 @@
     <EnrolleeEmail>myemail@bk.ry</EnrolleeEmail>
     <EnrolleeAdditionalInformation />
   </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>4066</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2019-12-01T10:47:52.217</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>434</EnrolleeFirstname>
+    <EnrolleeLastname>34</EnrolleeLastname>
+    <EnrolleePatronymic>344</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2015-05-03T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>34</EnrolleePassportSeries>
+    <EnrolleePassportNumber>34</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>34</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>34</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2025-05-03T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>43</EnrolleeAddress>
+    <EnrolleePostcode>34</EnrolleePostcode>
+    <EnrolleePhoneNumber>43</EnrolleePhoneNumber>
+    <EnrolleeEducation>34</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>43</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>34</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2015-05-03T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>3434</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>43</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>34</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>34</EnrolleeEmail>
+    <EnrolleeAdditionalInformation>34</EnrolleeAdditionalInformation>
+  </EnrolleeSend>
 </ArrayOfEnrolleeSend>
