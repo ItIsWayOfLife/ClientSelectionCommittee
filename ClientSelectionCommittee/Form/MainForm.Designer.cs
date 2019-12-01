@@ -148,6 +148,7 @@
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.Size = new System.Drawing.Size(40, 29);
             this.toolStripButton5.Text = "Чат";
+            this.toolStripButton5.Click += new System.EventHandler(this.ToolStripButton5_Click);
             // 
             // toolStripSeparator4
             // 

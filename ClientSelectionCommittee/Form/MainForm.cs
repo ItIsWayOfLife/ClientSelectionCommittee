@@ -162,7 +162,7 @@ namespace ClientSelectionCommittee
             toolStripComboBox2.Items.AddRange(arraySearch);
 
 
-         //   toolStripLabel1.Text = $"{userSend.Lastname} {userSend.Firstname[0]}. {userSend.Patronymic[0]}.";
+           toolStripLabel1.Text = $"{userSend.Lastname} {userSend.Firstname[0]}. {userSend.Patronymic[0]}.";
         }
 
         private void ToolStripButton1_Click(object sender, EventArgs e)
@@ -193,9 +193,9 @@ namespace ClientSelectionCommittee
         // событие откт нач форму
         private void MainForm_FormClosed_1(object sender, FormClosedEventArgs e)
         {
-            // UserSend.Exit();
-          //  Form loginForm = Application.OpenForms[0];
-          //  loginForm.Show();
+          //   UserSend.Exit();
+            Form loginForm = Application.OpenForms[0];
+            loginForm.Show();
         }
 
         private void ToolStripComboBox1_Click(object sender, EventArgs e)
@@ -283,6 +283,12 @@ namespace ClientSelectionCommittee
             }
 
             this.Close();
+        }
+
+        private void ToolStripButton5_Click(object sender, EventArgs e)
+        {
+            Chat chat = new Chat(userSend);
+            chat.Show();
         }
     }
 }
