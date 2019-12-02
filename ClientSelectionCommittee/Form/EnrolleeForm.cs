@@ -284,5 +284,18 @@ namespace ClientSelectionCommittee
             toolStripComboBox1.Text = arraySearch[0];
             toolStripTextBox2.Text = "";
         }
+
+        private void ToolStripButton7_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                RefForm refForm = new RefForm(FlagEnrollee());
+                refForm.Show();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Выберите абитуриента","Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            }
     }
 }

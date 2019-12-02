@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <EnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>21</Id>
-  <IdDirectionTraining>7</IdDirectionTraining>
+  <Id>0</Id>
+  <IdDirectionTraining>1</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
   <NameConcession>без льготы</NameConcession>
-  <EnrolleeDateOfRegistration>2019-11-30T20:54:57.99</EnrolleeDateOfRegistration>
-  <EnrolleeFirstname>Михаил</EnrolleeFirstname>
-  <EnrolleeLastname>Бодзевич</EnrolleeLastname>
-  <EnrolleePatronymic>Степанович</EnrolleePatronymic>
+  <EnrolleeDateOfRegistration>0001-01-01T00:00:00</EnrolleeDateOfRegistration>
+  <EnrolleeFirstname>2</EnrolleeFirstname>
+  <EnrolleeLastname>2</EnrolleeLastname>
+  <EnrolleePatronymic>2</EnrolleePatronymic>
   <EnrolleeSex>мужской</EnrolleeSex>
-  <EnrolleeDateOfBirth>2001-08-06T00:00:00</EnrolleeDateOfBirth>
-  <EnrolleePassportSeries>ds</EnrolleePassportSeries>
-  <EnrolleePassportNumber>3004310</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>34945543211</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>Минским УВД №2</EnrolleePassportIssuedBy>
-  <EnrolleeDateOfIssue>2014-02-20T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2024-02-20T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>Минская об, г.Минск, ул. Карла Маркса 23, кв.2</EnrolleeAddress>
-  <EnrolleePostcode>220015</EnrolleePostcode>
-  <EnrolleePhoneNumber>+65765434532</EnrolleePhoneNumber>
-  <EnrolleeEducation>среднее</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>Гимназия №1</EnrolleeLastPlaceOfStudy>
-  <EnrolleeAddressLastPlaceOfStudy>г.Минск, ул. Строителей 5</EnrolleeAddressLastPlaceOfStudy>
-  <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>5472354688</EnrolleeNumberCertificateOrDiploma>
-  <EnrolleeAverageGradeOfCertificateOrDiploma>96</EnrolleeAverageGradeOfCertificateOrDiploma>
-  <EnrolleeScoreOfTheFirstEntranceTest>50</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>80</EnrolleeScoreOfTheSecondEntranceTest>
-  <EnrolleeScoreOfTheThirdEntranceTest>35</EnrolleeScoreOfTheThirdEntranceTest>
-  <EnrolleeEmail>2</EnrolleeEmail>
+  <EnrolleeDateOfBirth>2010-02-02T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleePassportSeries>2</EnrolleePassportSeries>
+  <EnrolleePassportNumber>2</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>2</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>2</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2010-02-02T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2010-02-02T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>2</EnrolleeAddress>
+  <EnrolleePostcode>2</EnrolleePostcode>
+  <EnrolleePhoneNumber>2</EnrolleePhoneNumber>
+  <EnrolleeEducation>2</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>2</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>2</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeGraduationDate>2010-02-02T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>2</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>2</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeScoreOfTheFirstEntranceTest>2</EnrolleeScoreOfTheFirstEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>2</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>2</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleeEmail>antongunko1@gmail.com</EnrolleeEmail>
   <EnrolleeAdditionalInformation>2</EnrolleeAdditionalInformation>
 </EnrolleeSend>

@@ -60,6 +60,12 @@
     </Compile>
     <Compile Include="GetHistorySend.cs" />
     <Compile Include="HistorySend.cs" />
+    <Compile Include="RefForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RefForm.Designer.cs">
+      <DependentUpon>RefForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Requests\AddDoc.cs" />
     <Compile Include="Form\AddDocForm.cs">
       <SubType>Form</SubType>
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\UpdateDocForm.resx">
       <DependentUpon>UpdateDocForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RefForm.resx">
+      <DependentUpon>RefForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
