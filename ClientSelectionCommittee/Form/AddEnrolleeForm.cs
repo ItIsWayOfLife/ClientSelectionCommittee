@@ -18,6 +18,7 @@ namespace ClientSelectionCommittee
         // нов абитуриент
         EnrolleeSend enrolleeSend_ = null;
 
+        UserSend userSend = null;
 
         // ур образов
        // List<LevelEducation> levelEducations = null;
@@ -25,10 +26,11 @@ namespace ClientSelectionCommittee
         // льготы
        // List<Concession> concessions = null;
 
-        public AddEnrolleeForm(TrainingDirectionSend td)
+        public AddEnrolleeForm(TrainingDirectionSend td, UserSend userSend)
         {
             InitializeComponent();
             trainingDirectionSend = td;
+            this.userSend = userSend;
         }
 
         // инфо о направл подготовки
@@ -129,7 +131,7 @@ namespace ClientSelectionCommittee
 
 
                 // добавляем в бд
-                new AddEnrollee().AddEnrolleeTo(enrolleeSend_);
+                new AddEnrollee().AddEnrolleeTo(enrolleeSend_, userSend.Login);
 
                 // отображение данных
                 SearchNewEnrolle();

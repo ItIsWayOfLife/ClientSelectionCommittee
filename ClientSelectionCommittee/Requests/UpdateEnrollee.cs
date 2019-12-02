@@ -10,12 +10,15 @@ namespace ClientSelectionCommittee
 {
     class UpdateEnrollee
     {
-        public string UpdateEnrolleeTo(EnrolleeSend en)
+        public string UpdateEnrolleeTo(EnrolleeSend en, string login)
         {
             en.ThisSerializable();
 
             // заголовок
-            string message = "UpdateEnrollee ";
+            string message = "UpdateEnrollee";
+
+            message += login + " ";
+
             // добавление заголовка
             message += en.ReadToXml();
 

@@ -11,12 +11,13 @@ namespace ClientSelectionCommittee
 {
     class AddEnrollee
     {
-        public string AddEnrolleeTo(EnrolleeSend en)
+        public string AddEnrolleeTo(EnrolleeSend en, string login)
         {
             en.ThisSerializable();
 
             // заголовок
-            string message = "AddEnrollee ";
+            string message = "AddEnrollee";
+            message += login +" ";
             // добавление заголовка
             message += en.ReadToXml();
 

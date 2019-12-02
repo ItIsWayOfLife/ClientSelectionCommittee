@@ -9,11 +9,12 @@ namespace ClientSelectionCommittee
 {
     class GetEnrollee
     {
-        public List<EnrolleeSend> GetDataEn()
+        public List<EnrolleeSend> GetDataEn(string login)
         {
             List<EnrolleeSend> enrolleeSends = null;
 
             string message = "GetEnrollee";
+            message += login + " ";
 
             TcpClient client = null;
             try

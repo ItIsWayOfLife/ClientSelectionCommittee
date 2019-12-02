@@ -10,11 +10,12 @@ namespace ClientSelectionCommittee
 {
     class GetTrainingDirectionSend
     {
-        public List<TrainingDirectionSend> GetTD()
+        public List<TrainingDirectionSend> GetTD(string login)
         {
             List<TrainingDirectionSend> trainingDirectionSends = null;
 
             string message = "GetTD";
+            message += login +" ";
 
             TcpClient client = null;
             try

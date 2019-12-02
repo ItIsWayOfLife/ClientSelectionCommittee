@@ -19,12 +19,15 @@ namespace ClientSelectionCommittee
 
         TrainingDirectionSend trainingDirectionSend = null;
 
-        public UpdateEnrolleeForm(EnrolleeSend enrollee, TrainingDirectionSend trainingDS, List<TrainingDirectionSend> trainingDs)
+        UserSend userSend = null;
+
+        public UpdateEnrolleeForm(EnrolleeSend enrollee, TrainingDirectionSend trainingDS, List<TrainingDirectionSend> trainingDs, UserSend userSend)
         {
             InitializeComponent();
             enrolleeSend = enrollee;
             trainingDirectionSend = trainingDS;
             trainingDirectionSends = trainingDs;
+            this.userSend = userSend;
         }
 
         // заполнение данных абит
@@ -187,7 +190,7 @@ namespace ClientSelectionCommittee
 
                 enrolleeSend.IdDirectionTraining = trainingDirectionSend.Id;
 
-                string st = new UpdateEnrollee().UpdateEnrolleeTo(enrolleeSend);
+                string st = new UpdateEnrollee().UpdateEnrolleeTo(enrolleeSend, userSend.Login);
 
                 if (st.Contains("Ошибка"))
                 {

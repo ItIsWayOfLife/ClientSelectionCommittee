@@ -795,4 +795,100 @@
     <EnrolleeEmail>34</EnrolleeEmail>
     <EnrolleeAdditionalInformation>34</EnrolleeAdditionalInformation>
   </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>5066</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <NameConcession>вне конкурса</NameConcession>
+    <EnrolleeDateOfRegistration>2019-12-02T19:01:17.16</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Алекс</EnrolleeFirstname>
+    <EnrolleeLastname>Ало</EnrolleeLastname>
+    <EnrolleePatronymic>Петрович</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2015-05-03T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3435</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>3252355335</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>ПинскимГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2015-05-03T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>г пинск </EnrolleeAddress>
+    <EnrolleePostcode>323544</EnrolleePostcode>
+    <EnrolleePhoneNumber>3334234242</EnrolleePhoneNumber>
+    <EnrolleeEducation>срежнее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>Сш №3</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г Пинск</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2015-05-03T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>345253</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>34</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>43</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>ава@bk.ru</EnrolleeEmail>
+    <EnrolleeAdditionalInformation />
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>5067</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <NameConcession>вне конкурса</NameConcession>
+    <EnrolleeDateOfRegistration>2019-12-02T20:26:59.463</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Алекс</EnrolleeFirstname>
+    <EnrolleeLastname>Ало</EnrolleeLastname>
+    <EnrolleePatronymic>Петрович</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2015-05-03T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>88</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3435</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>3252355335</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>ПинскимГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2015-05-03T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>г пинск </EnrolleeAddress>
+    <EnrolleePostcode>323544</EnrolleePostcode>
+    <EnrolleePhoneNumber>3334234242</EnrolleePhoneNumber>
+    <EnrolleeEducation>срежнее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>Сш №3</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г Пинск</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2015-05-03T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>345253</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>34</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>43</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>ава@bk.ru</EnrolleeEmail>
+    <EnrolleeAdditionalInformation />
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>5068</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <NameConcession>вне конкурса</NameConcession>
+    <EnrolleeDateOfRegistration>2019-12-02T20:26:37.157</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Алекс</EnrolleeFirstname>
+    <EnrolleeLastname>Ало</EnrolleeLastname>
+    <EnrolleePatronymic>Петрович</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2015-05-03T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>105</EnrolleePassportSeries>
+    <EnrolleePassportNumber>3435</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>3252355335</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>ПинскимГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2015-05-03T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>г пинск </EnrolleeAddress>
+    <EnrolleePostcode>323544</EnrolleePostcode>
+    <EnrolleePhoneNumber>3334234242</EnrolleePhoneNumber>
+    <EnrolleeEducation>срежнее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>Сш №3</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>г Пинск</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2015-05-03T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>345253</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>34</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>43</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>ава@bk.ru</EnrolleeEmail>
+    <EnrolleeAdditionalInformation />
+  </EnrolleeSend>
 </ArrayOfEnrolleeSend>

@@ -53,7 +53,7 @@ namespace ClientSelectionCommittee
 
         private void LoadDataServ()
         {
-            trainingDirectionSends = new GetTrainingDirectionSend().GetTD();
+            trainingDirectionSends = new GetTrainingDirectionSend().GetTD(userSend.Login);
 
             if (trainingDirectionSends == null)
             {
@@ -167,7 +167,7 @@ namespace ClientSelectionCommittee
 
         private void ToolStripButton1_Click(object sender, EventArgs e)
         {
-            AddEnrolleeForm addEnrolleeForm = new AddEnrolleeForm(FlagTrainingDirection());
+            AddEnrolleeForm addEnrolleeForm = new AddEnrolleeForm(FlagTrainingDirection(), userSend);
             addEnrolleeForm.Show();
         }
 
@@ -180,7 +180,7 @@ namespace ClientSelectionCommittee
         // отк окно абит
         private void ToolStripButton3_Click(object sender, EventArgs e)
         {
-            EnrolleeForm enrolleeForm = new EnrolleeForm(trainingDirectionSends);
+            EnrolleeForm enrolleeForm = new EnrolleeForm(trainingDirectionSends, userSend);
             enrolleeForm.Show();
         }
 

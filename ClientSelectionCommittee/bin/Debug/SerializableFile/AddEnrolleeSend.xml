@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <EnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>0</Id>
-  <IdDirectionTraining>1</IdDirectionTraining>
+  <Id>21</Id>
+  <IdDirectionTraining>7</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
   <NameConcession>без льготы</NameConcession>
-  <EnrolleeDateOfRegistration>0001-01-01T00:00:00</EnrolleeDateOfRegistration>
-  <EnrolleeFirstname>434</EnrolleeFirstname>
-  <EnrolleeLastname>34</EnrolleeLastname>
-  <EnrolleePatronymic>344</EnrolleePatronymic>
+  <EnrolleeDateOfRegistration>2019-11-30T20:54:57.99</EnrolleeDateOfRegistration>
+  <EnrolleeFirstname>Михаил</EnrolleeFirstname>
+  <EnrolleeLastname>Бодзевич</EnrolleeLastname>
+  <EnrolleePatronymic>Степанович</EnrolleePatronymic>
   <EnrolleeSex>мужской</EnrolleeSex>
-  <EnrolleeDateOfBirth>2015-05-03T00:00:00</EnrolleeDateOfBirth>
-  <EnrolleePassportSeries>34</EnrolleePassportSeries>
-  <EnrolleePassportNumber>34</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>34</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>34</EnrolleePassportIssuedBy>
-  <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2025-05-03T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>43</EnrolleeAddress>
-  <EnrolleePostcode>34</EnrolleePostcode>
-  <EnrolleePhoneNumber>43</EnrolleePhoneNumber>
-  <EnrolleeEducation>34</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>43</EnrolleeLastPlaceOfStudy>
-  <EnrolleeAddressLastPlaceOfStudy>34</EnrolleeAddressLastPlaceOfStudy>
-  <EnrolleeGraduationDate>2015-05-03T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>3434</EnrolleeNumberCertificateOrDiploma>
-  <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
-  <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>43</EnrolleeScoreOfTheSecondEntranceTest>
-  <EnrolleeScoreOfTheThirdEntranceTest>34</EnrolleeScoreOfTheThirdEntranceTest>
-  <EnrolleeEmail>34</EnrolleeEmail>
-  <EnrolleeAdditionalInformation>34</EnrolleeAdditionalInformation>
+  <EnrolleeDateOfBirth>2001-08-06T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleePassportSeries>ds</EnrolleePassportSeries>
+  <EnrolleePassportNumber>3004310</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>34945543211</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>Минским УВД №2</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2014-02-20T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2024-02-20T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>Минская об, г.Минск, ул. Карла Маркса 23, кв.2</EnrolleeAddress>
+  <EnrolleePostcode>220015</EnrolleePostcode>
+  <EnrolleePhoneNumber>+65765434532</EnrolleePhoneNumber>
+  <EnrolleeEducation>среднее</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>Гимназия №1</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>г.Минск, ул. Строителей 5</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>5472354688</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>96</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeScoreOfTheFirstEntranceTest>50</EnrolleeScoreOfTheFirstEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>80</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>35</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleeEmail>2</EnrolleeEmail>
+  <EnrolleeAdditionalInformation>2</EnrolleeAdditionalInformation>
 </EnrolleeSend>

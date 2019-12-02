@@ -81,7 +81,7 @@ namespace ClientSelectionCommittee
             }
         }
 
-        string[] arraySearch = new string[] { "Поиск", "Номеру направления","Личному номеру абит","Операции"}; 
+        string[] arraySearch = new string[] { "Поиск", "Номеру истории","Личному номеру абит","Операции"}; 
 
         private void AdminForm_Load(object sender, EventArgs e)
         {

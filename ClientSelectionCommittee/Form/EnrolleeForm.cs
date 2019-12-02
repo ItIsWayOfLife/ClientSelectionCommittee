@@ -15,13 +15,13 @@ namespace ClientSelectionCommittee
 
         List<TrainingDirectionSend> trainingDirectionSends = null;
         List<EnrolleeSend> enrolleeSends = null;
-
+        UserSend userSend = null;
       
 
         // получить данные с серв
         private void LoadDataServEn()
         {
-            enrolleeSends = new GetEnrollee().GetDataEn();
+            enrolleeSends = new GetEnrollee().GetDataEn(userSend.Login);
 
             if (enrolleeSends == null)
             {
@@ -29,10 +29,11 @@ namespace ClientSelectionCommittee
             }
         }
 
-        public EnrolleeForm(List<TrainingDirectionSend> td)
+        public EnrolleeForm(List<TrainingDirectionSend> td, UserSend userSend)
         {
             InitializeComponent();
 
+            this.userSend = userSend;
             try
             {
                 trainingDirectionSends = td;
@@ -220,7 +221,7 @@ namespace ClientSelectionCommittee
         // обновление абитуриента
         private void ToolStripButton1_Click(object sender, EventArgs e)
         {
-            UpdateEnrolleeForm updateEnrolleeForm = new UpdateEnrolleeForm(FlagEnrollee(), trainingDirectionSends.Where(p=>p.Id==FlagEnrollee().IdDirectionTraining).First(), trainingDirectionSends);
+            UpdateEnrolleeForm updateEnrolleeForm = new UpdateEnrolleeForm(FlagEnrollee(), trainingDirectionSends.Where(p=>p.Id==FlagEnrollee().IdDirectionTraining).First(), trainingDirectionSends, userSend);
             updateEnrolleeForm.Show();
         }
 
