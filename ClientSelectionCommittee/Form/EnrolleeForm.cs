@@ -297,5 +297,25 @@ namespace ClientSelectionCommittee
                 MessageBox.Show("Выберите абитуриента","Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             }
+
+        private void ToolStripButton8_Click(object sender, EventArgs e)
+        {
+            if (FlagEnrollee() != null)
+            {
+                EmailForm emailForm = new EmailForm(FlagEnrollee());
+                emailForm.Show();
+            }
+            else
+            {
+                MessageBox.Show("Выберите абитуриента");
+            }
+
+        }
+
+        private void ToolStripButton9_Click(object sender, EventArgs e)
+        {
+            StateForm stateForm = new StateForm(userSend);
+            stateForm.Show();
+        }
     }
 }

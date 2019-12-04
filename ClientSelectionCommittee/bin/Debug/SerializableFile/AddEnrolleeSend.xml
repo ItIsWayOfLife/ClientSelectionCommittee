@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <EnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>0</Id>
+  <Id>4066</Id>
   <IdDirectionTraining>1</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
   <NameConcession>без льготы</NameConcession>
-  <EnrolleeDateOfRegistration>0001-01-01T00:00:00</EnrolleeDateOfRegistration>
-  <EnrolleeFirstname>2</EnrolleeFirstname>
-  <EnrolleeLastname>2</EnrolleeLastname>
-  <EnrolleePatronymic>2</EnrolleePatronymic>
+  <EnrolleeDateOfRegistration>2019-12-01T10:47:52.217</EnrolleeDateOfRegistration>
+  <EnrolleeFirstname>434</EnrolleeFirstname>
+  <EnrolleeLastname>34</EnrolleeLastname>
+  <EnrolleePatronymic>344</EnrolleePatronymic>
   <EnrolleeSex>мужской</EnrolleeSex>
-  <EnrolleeDateOfBirth>2010-02-02T00:00:00</EnrolleeDateOfBirth>
-  <EnrolleePassportSeries>2</EnrolleePassportSeries>
-  <EnrolleePassportNumber>2</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>2</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>2</EnrolleePassportIssuedBy>
-  <EnrolleeDateOfIssue>2010-02-02T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2010-02-02T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>2</EnrolleeAddress>
-  <EnrolleePostcode>2</EnrolleePostcode>
-  <EnrolleePhoneNumber>2</EnrolleePhoneNumber>
-  <EnrolleeEducation>2</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>2</EnrolleeLastPlaceOfStudy>
-  <EnrolleeAddressLastPlaceOfStudy>2</EnrolleeAddressLastPlaceOfStudy>
-  <EnrolleeGraduationDate>2010-02-02T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>2</EnrolleeNumberCertificateOrDiploma>
-  <EnrolleeAverageGradeOfCertificateOrDiploma>2</EnrolleeAverageGradeOfCertificateOrDiploma>
-  <EnrolleeScoreOfTheFirstEntranceTest>2</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>2</EnrolleeScoreOfTheSecondEntranceTest>
-  <EnrolleeScoreOfTheThirdEntranceTest>2</EnrolleeScoreOfTheThirdEntranceTest>
-  <EnrolleeEmail>antongunko1@gmail.com</EnrolleeEmail>
-  <EnrolleeAdditionalInformation>2</EnrolleeAdditionalInformation>
+  <EnrolleeDateOfBirth>2015-05-03T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleePassportSeries>34</EnrolleePassportSeries>
+  <EnrolleePassportNumber>34</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>34</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>34</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2025-05-03T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>гомель</EnrolleeAddress>
+  <EnrolleePostcode>34</EnrolleePostcode>
+  <EnrolleePhoneNumber>43</EnrolleePhoneNumber>
+  <EnrolleeEducation>34</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>43</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>34</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeGraduationDate>2015-05-03T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>3434</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>43</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>34</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleeEmail>34</EnrolleeEmail>
+  <EnrolleeAdditionalInformation>34</EnrolleeAdditionalInformation>
 </EnrolleeSend>

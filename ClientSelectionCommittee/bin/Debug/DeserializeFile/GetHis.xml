@@ -534,4 +534,52 @@
     <Operation>Добавлены данные абитуриента 34 434</Operation>
     <CreateAt>2019-12-01T10:47:52.89</CreateAt>
   </HistorySend>
+  <HistorySend>
+    <Id>7045</Id>
+    <IdEnrollee>5066</IdEnrollee>
+    <Operation>Добавлены данные абитуриента Ало Алекс</Operation>
+    <CreateAt>2019-12-02T19:01:19.16</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>7046</Id>
+    <IdEnrollee>5067</IdEnrollee>
+    <Operation>Добавлены данные абитуриента Ало Алекс</Operation>
+    <CreateAt>2019-12-02T19:02:34.513</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>7047</Id>
+    <IdEnrollee>5068</IdEnrollee>
+    <Operation>Добавлены данные абитуриента Ало Алекс</Operation>
+    <CreateAt>2019-12-02T19:02:34.83</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>7048</Id>
+    <IdEnrollee>5068</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Ало Алекс</Operation>
+    <CreateAt>2019-12-02T20:24:31.013</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>7049</Id>
+    <IdEnrollee>5068</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Ало Алекс</Operation>
+    <CreateAt>2019-12-02T20:26:37.357</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>7050</Id>
+    <IdEnrollee>5067</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Ало Алекс</Operation>
+    <CreateAt>2019-12-02T20:26:59.527</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>7051</Id>
+    <IdEnrollee>5069</IdEnrollee>
+    <Operation>Добавлены данные абитуриента 2 2</Operation>
+    <CreateAt>2019-12-02T21:19:56.413</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>7052</Id>
+    <IdEnrollee>5070</IdEnrollee>
+    <Operation>Добавлены данные абитуриента 2 2</Operation>
+    <CreateAt>2019-12-02T21:21:39.49</CreateAt>
+  </HistorySend>
 </ArrayOfHistorySend>

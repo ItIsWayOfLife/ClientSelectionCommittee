@@ -768,7 +768,7 @@
     <Id>4066</Id>
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-12-01T10:47:52.217</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-04T22:25:14.2</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>434</EnrolleeFirstname>
     <EnrolleeLastname>34</EnrolleeLastname>
     <EnrolleePatronymic>344</EnrolleePatronymic>
@@ -780,7 +780,7 @@
     <EnrolleePassportIssuedBy>34</EnrolleePassportIssuedBy>
     <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
     <EnrolleeDateExpiry>2025-05-03T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>43</EnrolleeAddress>
+    <EnrolleeAddress>гомель</EnrolleeAddress>
     <EnrolleePostcode>34</EnrolleePostcode>
     <EnrolleePhoneNumber>43</EnrolleePhoneNumber>
     <EnrolleeEducation>34</EnrolleeEducation>
@@ -832,7 +832,7 @@
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
     <NameConcession>вне конкурса</NameConcession>
-    <EnrolleeDateOfRegistration>2019-12-02T20:26:59.463</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-04T22:24:52.6</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>Алекс</EnrolleeFirstname>
     <EnrolleeLastname>Ало</EnrolleeLastname>
     <EnrolleePatronymic>Петрович</EnrolleePatronymic>
@@ -844,7 +844,7 @@
     <EnrolleePassportIssuedBy>ПинскимГОВД</EnrolleePassportIssuedBy>
     <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
     <EnrolleeDateExpiry>2015-05-03T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>г пинск </EnrolleeAddress>
+    <EnrolleeAddress>минск</EnrolleeAddress>
     <EnrolleePostcode>323544</EnrolleePostcode>
     <EnrolleePhoneNumber>3334234242</EnrolleePhoneNumber>
     <EnrolleeEducation>срежнее</EnrolleeEducation>
@@ -864,7 +864,7 @@
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
     <NameConcession>вне конкурса</NameConcession>
-    <EnrolleeDateOfRegistration>2019-12-02T20:26:37.157</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-04T22:24:04.183</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>Алекс</EnrolleeFirstname>
     <EnrolleeLastname>Ало</EnrolleeLastname>
     <EnrolleePatronymic>Петрович</EnrolleePatronymic>
@@ -876,7 +876,7 @@
     <EnrolleePassportIssuedBy>ПинскимГОВД</EnrolleePassportIssuedBy>
     <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
     <EnrolleeDateExpiry>2015-05-03T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>г пинск </EnrolleeAddress>
+    <EnrolleeAddress>витебск</EnrolleeAddress>
     <EnrolleePostcode>323544</EnrolleePostcode>
     <EnrolleePhoneNumber>3334234242</EnrolleePhoneNumber>
     <EnrolleeEducation>срежнее</EnrolleeEducation>
@@ -895,7 +895,7 @@
     <Id>5069</Id>
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-12-02T21:19:53.42</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-04T22:23:54.61</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>2</EnrolleeFirstname>
     <EnrolleeLastname>2</EnrolleeLastname>
     <EnrolleePatronymic>2</EnrolleePatronymic>
@@ -907,7 +907,7 @@
     <EnrolleePassportIssuedBy>2</EnrolleePassportIssuedBy>
     <EnrolleeDateOfIssue>2010-02-02T00:00:00</EnrolleeDateOfIssue>
     <EnrolleeDateExpiry>2010-02-02T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>2</EnrolleeAddress>
+    <EnrolleeAddress>минск</EnrolleeAddress>
     <EnrolleePostcode>2</EnrolleePostcode>
     <EnrolleePhoneNumber>2</EnrolleePhoneNumber>
     <EnrolleeEducation>2</EnrolleeEducation>
@@ -926,7 +926,7 @@
     <Id>5070</Id>
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-12-02T21:21:39.057</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-04T22:23:23.947</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>2</EnrolleeFirstname>
     <EnrolleeLastname>2</EnrolleeLastname>
     <EnrolleePatronymic>2</EnrolleePatronymic>
@@ -938,7 +938,7 @@
     <EnrolleePassportIssuedBy>2</EnrolleePassportIssuedBy>
     <EnrolleeDateOfIssue>2010-02-02T00:00:00</EnrolleeDateOfIssue>
     <EnrolleeDateExpiry>2010-02-02T00:00:00</EnrolleeDateExpiry>
-    <EnrolleeAddress>2</EnrolleeAddress>
+    <EnrolleeAddress>могилев</EnrolleeAddress>
     <EnrolleePostcode>2</EnrolleePostcode>
     <EnrolleePhoneNumber>2</EnrolleePhoneNumber>
     <EnrolleeEducation>2</EnrolleeEducation>
