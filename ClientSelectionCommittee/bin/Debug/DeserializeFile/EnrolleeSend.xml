@@ -151,9 +151,9 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>34</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
+    <IdDirectionTraining>11</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-05T02:40:13.763</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>Кирилл </EnrolleeFirstname>
     <EnrolleeLastname>Бурак</EnrolleeLastname>
     <EnrolleePatronymic>Александрович</EnrolleePatronymic>
@@ -177,6 +177,8 @@
     <EnrolleeScoreOfTheFirstEntranceTest>50</EnrolleeScoreOfTheFirstEntranceTest>
     <EnrolleeScoreOfTheSecondEntranceTest>73</EnrolleeScoreOfTheSecondEntranceTest>
     <EnrolleeScoreOfTheThirdEntranceTest>60</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail />
+    <EnrolleeAdditionalInformation />
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>36</Id>
@@ -300,9 +302,9 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>73</Id>
-    <IdDirectionTraining>1</IdDirectionTraining>
+    <IdDirectionTraining>33</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-11-26T23:19:23.67</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-05T02:30:35.27</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>3</EnrolleeFirstname>
     <EnrolleeLastname>3</EnrolleeLastname>
     <EnrolleePatronymic>3</EnrolleePatronymic>
@@ -926,7 +928,7 @@
     <Id>5070</Id>
     <IdDirectionTraining>1</IdDirectionTraining>
     <NameLevelEducation>первая</NameLevelEducation>
-    <EnrolleeDateOfRegistration>2019-12-04T22:23:23.947</EnrolleeDateOfRegistration>
+    <EnrolleeDateOfRegistration>2019-12-05T02:07:52.647</EnrolleeDateOfRegistration>
     <EnrolleeFirstname>2</EnrolleeFirstname>
     <EnrolleeLastname>2</EnrolleeLastname>
     <EnrolleePatronymic>2</EnrolleePatronymic>
@@ -946,11 +948,73 @@
     <EnrolleeAddressLastPlaceOfStudy>2</EnrolleeAddressLastPlaceOfStudy>
     <EnrolleeGraduationDate>2010-02-02T00:00:00</EnrolleeGraduationDate>
     <EnrolleeNumberCertificateOrDiploma>2</EnrolleeNumberCertificateOrDiploma>
-    <EnrolleeAverageGradeOfCertificateOrDiploma>2</EnrolleeAverageGradeOfCertificateOrDiploma>
-    <EnrolleeScoreOfTheFirstEntranceTest>2</EnrolleeScoreOfTheFirstEntranceTest>
-    <EnrolleeScoreOfTheSecondEntranceTest>2</EnrolleeScoreOfTheSecondEntranceTest>
-    <EnrolleeScoreOfTheThirdEntranceTest>2</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>100</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>80</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>100</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>100</EnrolleeScoreOfTheThirdEntranceTest>
     <EnrolleeEmail>antongunko1@gmail.com</EnrolleeEmail>
     <EnrolleeAdditionalInformation>2</EnrolleeAdditionalInformation>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>6066</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2019-12-05T02:11:44.987</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Игорь</EnrolleeFirstname>
+    <EnrolleeLastname>Беглый</EnrolleeLastname>
+    <EnrolleePatronymic>Сергеевич</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2010-01-12T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>2343453</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>3422435334</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Пинским</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2010-01-12T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2010-01-12T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Брестская об., г. Пинск, ул. Брестская 34, кв. 3</EnrolleeAddress>
+    <EnrolleePostcode>442</EnrolleePostcode>
+    <EnrolleePhoneNumber>322</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>34</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>32</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2010-01-12T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>1213414</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>85</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>24</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>65</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>65</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail>2332</EnrolleeEmail>
+    <EnrolleeAdditionalInformation>32ку</EnrolleeAdditionalInformation>
+  </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>6067</Id>
+    <IdDirectionTraining>2</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2019-12-05T02:16:38.383</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Инна</EnrolleeFirstname>
+    <EnrolleeLastname>Морж</EnrolleeLastname>
+    <EnrolleePatronymic>Абрамовна</EnrolleePatronymic>
+    <EnrolleeSex>женский</EnrolleeSex>
+    <EnrolleeDateOfBirth>2015-05-23T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>231253</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>3525255253</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Гомельским ГОВД №2</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2015-05-23T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2015-05-23T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>г Гомель</EnrolleeAddress>
+    <EnrolleePostcode />
+    <EnrolleePhoneNumber />
+    <EnrolleeEducation>23</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>34</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>34</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2015-05-23T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>43</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>55</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>34</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>34</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail />
+    <EnrolleeAdditionalInformation>55</EnrolleeAdditionalInformation>
   </EnrolleeSend>
 </ArrayOfEnrolleeSend>

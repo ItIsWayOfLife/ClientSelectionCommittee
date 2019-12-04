@@ -1,32 +1,32 @@
 <?xml version="1.0"?>
 <EnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>4066</Id>
-  <IdDirectionTraining>1</IdDirectionTraining>
+  <Id>1074</Id>
+  <IdDirectionTraining>11</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
   <NameConcession>без льготы</NameConcession>
-  <EnrolleeDateOfRegistration>2019-12-01T10:47:52.217</EnrolleeDateOfRegistration>
-  <EnrolleeFirstname>434</EnrolleeFirstname>
-  <EnrolleeLastname>34</EnrolleeLastname>
-  <EnrolleePatronymic>344</EnrolleePatronymic>
+  <EnrolleeDateOfRegistration>2019-11-30T01:34:46.083</EnrolleeDateOfRegistration>
+  <EnrolleeFirstname>3</EnrolleeFirstname>
+  <EnrolleeLastname>3</EnrolleeLastname>
+  <EnrolleePatronymic>3</EnrolleePatronymic>
   <EnrolleeSex>мужской</EnrolleeSex>
-  <EnrolleeDateOfBirth>2015-05-03T00:00:00</EnrolleeDateOfBirth>
-  <EnrolleePassportSeries>34</EnrolleePassportSeries>
-  <EnrolleePassportNumber>34</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>34</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>34</EnrolleePassportIssuedBy>
-  <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2025-05-03T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>гомель</EnrolleeAddress>
+  <EnrolleeDateOfBirth>2014-05-04T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleePassportSeries>3223</EnrolleePassportSeries>
+  <EnrolleePassportNumber>23</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>23</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>32</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2014-05-04T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2014-05-04T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>3</EnrolleeAddress>
   <EnrolleePostcode>34</EnrolleePostcode>
   <EnrolleePhoneNumber>43</EnrolleePhoneNumber>
-  <EnrolleeEducation>34</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>43</EnrolleeLastPlaceOfStudy>
+  <EnrolleeEducation>23</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>34</EnrolleeLastPlaceOfStudy>
   <EnrolleeAddressLastPlaceOfStudy>34</EnrolleeAddressLastPlaceOfStudy>
-  <EnrolleeGraduationDate>2015-05-03T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>3434</EnrolleeNumberCertificateOrDiploma>
-  <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeGraduationDate>2014-05-04T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>3</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>3</EnrolleeAverageGradeOfCertificateOrDiploma>
   <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>43</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>34</EnrolleeScoreOfTheSecondEntranceTest>
   <EnrolleeScoreOfTheThirdEntranceTest>34</EnrolleeScoreOfTheThirdEntranceTest>
   <EnrolleeEmail>34</EnrolleeEmail>
   <EnrolleeAdditionalInformation>34</EnrolleeAdditionalInformation>
