@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace ClientSelectionCommittee
 {
     public partial class MainForm : Form
@@ -16,7 +18,7 @@ namespace ClientSelectionCommittee
         List<TrainingDirectionSend> trainingDirectionSends = null;
 
         UserSend userSend = null;
-      
+
         public MainForm(UserSend userSend)
         {
             InitializeComponent();
@@ -31,8 +33,8 @@ namespace ClientSelectionCommittee
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка. Связь с сервером отсутствует! ({ex})") ;
-            }         
+                MessageBox.Show($"Ошибка. Связь с сервером отсутствует! ({ex})");
+            }
         }
 
         public MainForm()
@@ -61,9 +63,15 @@ namespace ClientSelectionCommittee
             }
         }
 
-        public MainForm(bool bl)
+        bool secodOpen = false;
+
+        public MainForm(bool bl, UserSend userSend)
         {
             InitializeComponent();
+
+            secodOpen = true;
+
+            this.userSend = userSend;
 
             toolStrip.Visible = false;
 
@@ -80,49 +88,64 @@ namespace ClientSelectionCommittee
         // заполн таблицы
         private void DrawData()
         {
-            // удаление данных с datagv (обратный цикл)
-            for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+            try
             {
-                dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
-            }
 
-            foreach (TrainingDirectionSend t in trainingDirectionSends)
+                // удаление данных с datagv (обратный цикл)
+                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+                {
+                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+                }
+
+                foreach (TrainingDirectionSend t in trainingDirectionSends)
+                {
+                    // id нов строки
+                    int rowNumber = dataGridView1.Rows.Add();
+                    // запись в столбцы
+                    dataGridView1.Rows[rowNumber].Cells[0].Value = t.Id;
+                    dataGridView1.Rows[rowNumber].Cells[1].Value = t.NameBudgetOrCharge;
+                    dataGridView1.Rows[rowNumber].Cells[2].Value = t.NameFormStudy;
+                    dataGridView1.Rows[rowNumber].Cells[3].Value = t.NameTrainingPeriod;
+                    dataGridView1.Rows[rowNumber].Cells[4].Value = t.CodeSpecialty;
+                    dataGridView1.Rows[rowNumber].Cells[5].Value = t.ShortNameFaculty;
+                    dataGridView1.Rows[rowNumber].Cells[6].Value = t.ShortNameDepartment;
+                    dataGridView1.Rows[rowNumber].Cells[7].Value = t.FullNameSpecialty;
+                }
+            } catch (Exception)
             {
-                // id нов строки
-                int rowNumber = dataGridView1.Rows.Add();
-                // запись в столбцы
-                dataGridView1.Rows[rowNumber].Cells[0].Value = t.Id;
-                dataGridView1.Rows[rowNumber].Cells[1].Value = t.NameBudgetOrCharge;
-                dataGridView1.Rows[rowNumber].Cells[2].Value = t.NameFormStudy;
-                dataGridView1.Rows[rowNumber].Cells[3].Value = t.NameTrainingPeriod;
-                dataGridView1.Rows[rowNumber].Cells[4].Value = t.CodeSpecialty;
-                dataGridView1.Rows[rowNumber].Cells[5].Value = t.ShortNameFaculty;
-                dataGridView1.Rows[rowNumber].Cells[6].Value = t.ShortNameDepartment;
-                dataGridView1.Rows[rowNumber].Cells[7].Value = t.FullNameSpecialty;
+
             }
         }
 
         private void DrawData(List<TrainingDirectionSend> tds)
         {
-            // удаление данных с datagv (обратный цикл)
-            for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+            try
             {
-                dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
-            }
 
-            foreach (TrainingDirectionSend t in tds)
+                // удаление данных с datagv (обратный цикл)
+                for (int i = dataGridView1.RowCount - 1; i >= 0; i--)
+                {
+                    dataGridView1.Rows.Remove(dataGridView1.Rows[i]);
+                }
+
+                foreach (TrainingDirectionSend t in tds)
+                {
+                    // id нов строки
+                    int rowNumber = dataGridView1.Rows.Add();
+                    // запись в столбцы
+                    dataGridView1.Rows[rowNumber].Cells[0].Value = t.Id;
+                    dataGridView1.Rows[rowNumber].Cells[1].Value = t.NameBudgetOrCharge;
+                    dataGridView1.Rows[rowNumber].Cells[2].Value = t.NameFormStudy;
+                    dataGridView1.Rows[rowNumber].Cells[3].Value = t.NameTrainingPeriod;
+                    dataGridView1.Rows[rowNumber].Cells[4].Value = t.CodeSpecialty;
+                    dataGridView1.Rows[rowNumber].Cells[5].Value = t.ShortNameFaculty;
+                    dataGridView1.Rows[rowNumber].Cells[6].Value = t.ShortNameDepartment;
+                    dataGridView1.Rows[rowNumber].Cells[7].Value = t.FullNameSpecialty;
+                }
+            }
+            catch (Exception)
             {
-                // id нов строки
-                int rowNumber = dataGridView1.Rows.Add();
-                // запись в столбцы
-                dataGridView1.Rows[rowNumber].Cells[0].Value = t.Id;
-                dataGridView1.Rows[rowNumber].Cells[1].Value = t.NameBudgetOrCharge;
-                dataGridView1.Rows[rowNumber].Cells[2].Value = t.NameFormStudy;
-                dataGridView1.Rows[rowNumber].Cells[3].Value = t.NameTrainingPeriod;
-                dataGridView1.Rows[rowNumber].Cells[4].Value = t.CodeSpecialty;
-                dataGridView1.Rows[rowNumber].Cells[5].Value = t.ShortNameFaculty;
-                dataGridView1.Rows[rowNumber].Cells[6].Value = t.ShortNameDepartment;
-                dataGridView1.Rows[rowNumber].Cells[7].Value = t.FullNameSpecialty;
+
             }
         }
 
@@ -193,9 +216,13 @@ namespace ClientSelectionCommittee
         // событие откт нач форму
         private void MainForm_FormClosed_1(object sender, FormClosedEventArgs e)
         {
-            new UserExit().Exit(userSend.Id);
-            Form loginForm = Application.OpenForms[0];
-            loginForm.Show();
+            if (secodOpen != true)
+            {
+
+                new UserExit().Exit(userSend.Id);
+                Form loginForm = Application.OpenForms[0];
+                loginForm.Show();
+            }
         }
 
         private void ToolStripComboBox1_Click(object sender, EventArgs e)
@@ -302,6 +329,42 @@ namespace ClientSelectionCommittee
             {
                 MessageBox.Show("У вас нет прав администратора", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void ОПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MessageBox.Show(Inquiry.Read(Inquiry.programInfo), "Справка о программе");
+            }
+            catch (Exception)
+            { }
+        }
+
+        private void ВыходToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataExport.ExportToExcel(dataGridView1);
+        }
+
+        private void ОРазработчикеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                MessageBox.Show(Inquiry.Read(Inquiry.aboutTheDeveloperInfo), "Справка о разработчике");
+            }
+            catch (Exception)
+            { }
+        }
+
+        private void ПомощьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MessageBox.Show(Inquiry.Read(Inquiry.mainFormInfoFile), "Помощь");
+            }
+            catch (Exception)
+            { }
         }
     }
 }

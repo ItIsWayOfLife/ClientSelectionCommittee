@@ -67,7 +67,7 @@ namespace ClientSelectionCommittee
                 // письмо представляет код html
                 m.IsBodyHtml = true;
 
-                if (labelFile.Text != "Путь файла")
+                if (labelFile.Text != "Путь файла" && labelFile.Text != "" && labelFile.Text != null)
                 {
                     System.Net.Mail.Attachment attachment;
                     attachment = new System.Net.Mail.Attachment(labelFile.Text);

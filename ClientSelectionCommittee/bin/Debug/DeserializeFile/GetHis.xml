@@ -582,4 +582,118 @@
     <Operation>Добавлены данные абитуриента 2 2</Operation>
     <CreateAt>2019-12-02T21:21:39.49</CreateAt>
   </HistorySend>
+  <HistorySend>
+    <Id>8045</Id>
+    <IdEnrollee>5070</IdEnrollee>
+    <Operation>Обновлены данные абитуриента 2 2</Operation>
+    <CreateAt>2019-12-04T22:23:25.67</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8046</Id>
+    <IdEnrollee>5069</IdEnrollee>
+    <Operation>Обновлены данные абитуриента 2 2</Operation>
+    <CreateAt>2019-12-04T22:23:54.713</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8047</Id>
+    <IdEnrollee>5068</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Ало Алекс</Operation>
+    <CreateAt>2019-12-04T22:24:04.217</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8048</Id>
+    <IdEnrollee>5067</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Ало Алекс</Operation>
+    <CreateAt>2019-12-04T22:24:52.787</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8049</Id>
+    <IdEnrollee>4066</IdEnrollee>
+    <Operation>Обновлены данные абитуриента 34 434</Operation>
+    <CreateAt>2019-12-04T22:25:14.22</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8050</Id>
+    <IdEnrollee>5070</IdEnrollee>
+    <Operation>Обновлены данные абитуриента 2 2</Operation>
+    <CreateAt>2019-12-05T02:07:54.177</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8051</Id>
+    <IdEnrollee>6066</IdEnrollee>
+    <Operation>Добавлены данные абитуриента Беглый Игорь</Operation>
+    <CreateAt>2019-12-05T02:11:45.38</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8052</Id>
+    <IdEnrollee>6067</IdEnrollee>
+    <Operation>Добавлены данные абитуриента Морж Инна</Operation>
+    <CreateAt>2019-12-05T02:16:39.367</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8053</Id>
+    <IdEnrollee>73</IdEnrollee>
+    <Operation>Обновлены данные абитуриента 3 3</Operation>
+    <CreateAt>2019-12-05T02:30:36.57</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8054</Id>
+    <IdEnrollee>34</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Бурак Кирилл </Operation>
+    <CreateAt>2019-12-05T02:40:15.127</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8055</Id>
+    <IdEnrollee>1073</IdEnrollee>
+    <Operation>Обновлены данные абитуриента 5 5</Operation>
+    <CreateAt>2019-12-05T02:42:27.763</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>8056</Id>
+    <IdEnrollee>1074</IdEnrollee>
+    <Operation>Обновлены данные абитуриента 3 3</Operation>
+    <CreateAt>2019-12-05T02:43:27.723</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>9045</Id>
+    <IdEnrollee>7066</IdEnrollee>
+    <Operation>Добавлены данные абитуриента Бурак Кирилл</Operation>
+    <CreateAt>2019-12-07T14:19:57.88</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>9046</Id>
+    <IdEnrollee>7067</IdEnrollee>
+    <Operation>Добавлены данные абитуриента Краса Ирина</Operation>
+    <CreateAt>2019-12-07T14:48:16.797</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>9047</Id>
+    <IdEnrollee>1065</IdEnrollee>
+    <Operation>Обновлены данные абитуриента 11 11</Operation>
+    <CreateAt>2019-12-07T15:00:55.837</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>9048</Id>
+    <IdEnrollee>7066</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Бурак Кирилл</Operation>
+    <CreateAt>2019-12-07T15:01:31.353</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>9049</Id>
+    <IdEnrollee>7066</IdEnrollee>
+    <Operation>Удалены данные абитуриента Бурак Кирилл</Operation>
+    <CreateAt>2019-12-07T15:04:44.18</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>9050</Id>
+    <IdEnrollee>6066</IdEnrollee>
+    <Operation>Удалены данные абитуриента Беглый Игорь</Operation>
+    <CreateAt>2019-12-07T15:04:58.493</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>9051</Id>
+    <IdEnrollee>7067</IdEnrollee>
+    <Operation>Удалены данные абитуриента Краса Ирина</Operation>
+    <CreateAt>2019-12-07T15:07:18.577</CreateAt>
+  </HistorySend>
 </ArrayOfHistorySend>

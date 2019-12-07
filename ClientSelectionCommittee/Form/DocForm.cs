@@ -173,5 +173,25 @@ namespace ClientSelectionCommittee
             toolStripComboBox1.Text = arraySearch[0];
             toolStripTextBox1.Text = "";
         }
+
+        private void ЭкспортВExcelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataExport.ExportToExcel(dataGridView1); 
+        }
+
+        private void ФайлToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ПомощьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MessageBox.Show(Inquiry.Read(Inquiry.docFormInfo), "Помощь");
+            }
+            catch (Exception)
+            { }
+        }
     }
 }

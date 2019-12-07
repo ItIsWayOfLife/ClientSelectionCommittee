@@ -21,3 +21,10 @@ D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\
 D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.RefForm.resources
 D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.EmailForm.resources
 D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\obj\Debug\ClientSelectionCommittee.StateForm.resources
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\bin\Debug\Info\AboutTheDeveloperInfo.txt
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\bin\Debug\Info\ContractFormInfo.txt
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\bin\Debug\Info\DocFormInfo.txt
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\bin\Debug\Info\EnrolleeFormInfo.txt
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\bin\Debug\Info\MainFormInfo.txt
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\bin\Debug\Info\ProgramInfo.txt
+D:\ПолесГУ\ForEnrollee\ClientSelectionCommittee\ClientSelectionCommittee\bin\Debug\Info\RelativeFormInfo.txt

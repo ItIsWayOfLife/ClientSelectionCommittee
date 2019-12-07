@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Chat));
             this.label1 = new System.Windows.Forms.Label();
             this.nameUser = new System.Windows.Forms.Label();
             this.loginButton = new System.Windows.Forms.Button();
@@ -63,7 +64,7 @@
             // loginButton
             // 
             this.loginButton.Location = new System.Drawing.Point(571, 11);
-            this.loginButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.loginButton.Margin = new System.Windows.Forms.Padding(4);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(133, 31);
             this.loginButton.TabIndex = 2;
@@ -74,7 +75,7 @@
             // logoutButton
             // 
             this.logoutButton.Location = new System.Drawing.Point(712, 11);
-            this.logoutButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.logoutButton.Margin = new System.Windows.Forms.Padding(4);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(133, 31);
             this.logoutButton.TabIndex = 3;
@@ -86,7 +87,7 @@
             // 
             this.sendButton.Enabled = false;
             this.sendButton.Location = new System.Drawing.Point(709, 372);
-            this.sendButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sendButton.Margin = new System.Windows.Forms.Padding(4);
             this.sendButton.Name = "sendButton";
             this.sendButton.Size = new System.Drawing.Size(136, 54);
             this.sendButton.TabIndex = 4;
@@ -97,7 +98,7 @@
             // messageTextBox
             // 
             this.messageTextBox.Location = new System.Drawing.Point(13, 373);
-            this.messageTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.messageTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.messageTextBox.Multiline = true;
             this.messageTextBox.Name = "messageTextBox";
             this.messageTextBox.Size = new System.Drawing.Size(688, 53);
@@ -106,7 +107,7 @@
             // chatTextBox
             // 
             this.chatTextBox.Location = new System.Drawing.Point(13, 50);
-            this.chatTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chatTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.chatTextBox.Multiline = true;
             this.chatTextBox.Name = "chatTextBox";
             this.chatTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -139,7 +140,8 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Chat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Чат";

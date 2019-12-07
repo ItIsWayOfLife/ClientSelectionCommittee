@@ -3,8 +3,8 @@
   <DocumentsSend>
     <Id>0</Id>
     <IdEnrollee>21</IdEnrollee>
-    <NameDocument>1</NameDocument>
-    <NumberDocument>777</NumberDocument>
-    <Description>777</Description>
+    <NameDocument>23</NameDocument>
+    <NumberDocument>23</NumberDocument>
+    <Description>23</Description>
   </DocumentsSend>
 </ArrayOfDocumentsSend>

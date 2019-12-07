@@ -30,6 +30,7 @@
         {
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StateForm));
             this.Сhart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -103,8 +104,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Сhart1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StateForm";
-            this.Text = "StateForm";
+            this.Text = "Статистика";
             this.Load += new System.EventHandler(this.StateForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Сhart1)).EndInit();
             this.ResumeLayout(false);

@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
@@ -47,30 +51,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminForm.cs">
+    <Compile Include="DataExport.cs" />
+    <Compile Include="Form\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminForm.Designer.cs">
+    <Compile Include="Form\AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chat.cs">
+    <Compile Include="Form\Chat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chat.Designer.cs">
+    <Compile Include="Form\Chat.Designer.cs">
       <DependentUpon>Chat.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmailForm.cs">
+    <Compile Include="Form\EmailForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmailForm.Designer.cs">
+    <Compile Include="Form\EmailForm.Designer.cs">
       <DependentUpon>EmailForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GetHistorySend.cs" />
-    <Compile Include="HistorySend.cs" />
-    <Compile Include="RefForm.cs">
+    <Compile Include="Inquiry.cs" />
+    <Compile Include="Requests\GetHistorySend.cs" />
+    <Compile Include="Requests\HistorySend.cs" />
+    <Compile Include="Form\RefForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RefForm.Designer.cs">
+    <Compile Include="Form\RefForm.Designer.cs">
       <DependentUpon>RefForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Requests\AddDoc.cs" />
@@ -80,7 +86,7 @@
     <Compile Include="Form\AddDocForm.Designer.cs">
       <DependentUpon>AddDocForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GetTcpClient.cs" />
+    <Compile Include="Requests\GetTcpClient.cs" />
     <Compile Include="Requests\DeleteDoc.cs" />
     <Compile Include="Form\DocForm.cs">
       <SubType>Form</SubType>
@@ -150,20 +156,20 @@
       <DependentUpon>UpdateDocForm.cs</DependentUpon>
     </Compile>
     <Compile Include="StateData.cs" />
-    <Compile Include="StateForm.cs">
+    <Compile Include="Form\StateForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StateForm.Designer.cs">
+    <Compile Include="Form\StateForm.Designer.cs">
       <DependentUpon>StateForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UserExit.cs" />
-    <EmbeddedResource Include="AdminForm.resx">
+    <EmbeddedResource Include="Form\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chat.resx">
+    <EmbeddedResource Include="Form\Chat.resx">
       <DependentUpon>Chat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmailForm.resx">
+    <EmbeddedResource Include="Form\EmailForm.resx">
       <DependentUpon>EmailForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\AddDocForm.resx">
@@ -203,12 +209,13 @@
     <EmbeddedResource Include="Form\UpdateDocForm.resx">
       <DependentUpon>UpdateDocForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RefForm.resx">
+    <EmbeddedResource Include="Form\RefForm.resx">
       <DependentUpon>RefForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StateForm.resx">
+    <EmbeddedResource Include="Form\StateForm.resx">
       <DependentUpon>StateForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -224,6 +231,29 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Info\AboutTheDeveloperInfo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Info\ContractFormInfo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Info\DocFormInfo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Info\EnrolleeFormInfo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Info\MainFormInfo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Info\ProgramInfo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Info\RelativeFormInfo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

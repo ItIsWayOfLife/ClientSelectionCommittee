@@ -130,7 +130,7 @@ namespace ClientSelectionCommittee
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            MainForm mainForm = new MainForm(true);
+            MainForm mainForm = new MainForm(true, userSend);
             mainForm.Show();
         }
 

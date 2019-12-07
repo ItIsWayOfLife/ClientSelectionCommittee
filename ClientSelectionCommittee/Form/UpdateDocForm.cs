@@ -42,7 +42,7 @@ namespace ClientSelectionCommittee
 
                 string info = new UpdateDoc().Update(documentsSend);
 
-                MessageBox.Show(info, "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Данные успешно обновлены", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 this.Close();
             }

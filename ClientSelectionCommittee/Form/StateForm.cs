@@ -85,7 +85,7 @@ namespace ClientSelectionCommittee
             Сhart1.ChartAreas[0].BackColor = Color.Wheat;
 
             // Добавить и форматировать заголовок
-            Сhart1.Titles.Add("Диаграммы");
+            Сhart1.Titles.Add("Статистика по регионам");
             Сhart1.Titles[0].Font = new Font("Utopia", 16);
 
             Сhart1.Series.Add(new Series("ColumnSeries")

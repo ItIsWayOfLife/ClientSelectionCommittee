@@ -183,7 +183,7 @@ namespace ClientSelectionCommittee
 
                         LoadDataServEn(); 
 
-                        ToolStripButton5_Click(sender, e);
+                        
                     }
                     catch (Exception ex)
                     {
@@ -316,6 +316,21 @@ namespace ClientSelectionCommittee
         {
             StateForm stateForm = new StateForm(userSend);
             stateForm.Show();
+        }
+
+        private void ЭкспортВExcelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataExport.ExportToExcel(dataGridView1);
+        }
+
+        private void ПомощьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MessageBox.Show(Inquiry.Read(Inquiry.enrolleeFormInfo), "Помощь");
+            }
+            catch (Exception)
+            { }
         }
     }
 }

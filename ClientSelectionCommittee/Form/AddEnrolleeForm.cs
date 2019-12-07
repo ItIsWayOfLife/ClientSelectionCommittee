@@ -136,6 +136,8 @@ namespace ClientSelectionCommittee
                 // отображение данных
                 SearchNewEnrolle();
 
+                MessageBox.Show("Абитуриент успешно добавлен","Добавление", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
             catch (Exception)
             {
