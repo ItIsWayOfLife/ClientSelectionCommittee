@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <EnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>7066</Id>
-  <IdDirectionTraining>24</IdDirectionTraining>
+  <Id>0</Id>
+  <IdDirectionTraining>1</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
   <NameConcession>без льготы</NameConcession>
-  <EnrolleeDateOfRegistration>2019-12-07T14:19:56.35</EnrolleeDateOfRegistration>
+  <EnrolleeDateOfRegistration>0001-01-01T00:00:00</EnrolleeDateOfRegistration>
   <EnrolleeFirstname>Кирилл</EnrolleeFirstname>
   <EnrolleeLastname>Бурак</EnrolleeLastname>
-  <EnrolleePatronymic>Иванович</EnrolleePatronymic>
+  <EnrolleePatronymic>Асламович</EnrolleePatronymic>
   <EnrolleeSex>мужской</EnrolleeSex>
-  <EnrolleeDateOfBirth>2014-12-12T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleeDateOfBirth>2001-11-21T00:00:00</EnrolleeDateOfBirth>
   <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
-  <EnrolleePassportNumber>213424</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>2324244</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>Пинским ГОВД</EnrolleePassportIssuedBy>
-  <EnrolleeDateOfIssue>2014-12-12T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2014-12-12T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>Брест</EnrolleeAddress>
-  <EnrolleePostcode>42</EnrolleePostcode>
-  <EnrolleePhoneNumber>2342</EnrolleePhoneNumber>
+  <EnrolleePassportNumber>1231324</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>13142244</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>Витедским ГОВД</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2015-10-12T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2025-10-12T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>Витебск</EnrolleeAddress>
+  <EnrolleePostcode>21332</EnrolleePostcode>
+  <EnrolleePhoneNumber>3423132</EnrolleePhoneNumber>
   <EnrolleeEducation>среднее</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>СШ №1</EnrolleeLastPlaceOfStudy>
-  <EnrolleeAddressLastPlaceOfStudy>Пинск</EnrolleeAddressLastPlaceOfStudy>
-  <EnrolleeGraduationDate>2014-12-12T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>2342</EnrolleeNumberCertificateOrDiploma>
-  <EnrolleeAverageGradeOfCertificateOrDiploma>76</EnrolleeAverageGradeOfCertificateOrDiploma>
-  <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>64</EnrolleeScoreOfTheSecondEntranceTest>
-  <EnrolleeScoreOfTheThirdEntranceTest>53</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleeLastPlaceOfStudy>Витебская СШ №12</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>Витебск</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeGraduationDate>2017-10-12T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>123424</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>45</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeScoreOfTheFirstEntranceTest>45</EnrolleeScoreOfTheFirstEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>54</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>23</EnrolleeScoreOfTheThirdEntranceTest>
   <EnrolleeEmail />
   <EnrolleeAdditionalInformation />
 </EnrolleeSend>

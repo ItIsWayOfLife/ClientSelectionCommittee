@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClientSelectionCommittee.AddDoc">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\AddDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.AddEnrollee">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Requests\AddEnrollee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.DeleteDoc">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\DeleteDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.DeleteEnrollee">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\DeleteEnrollee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.GetConcessionSend">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\GetConcessionSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.GetDoc">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\GetDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.GetEnrollee">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\GetEnrollee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.GetHistorySend">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\GetHistorySend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.GetLevelEducationSend">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\GetLevelEducationSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.GetTrainingDirectionSend">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\GetTrainingDirectionSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.ReturnLastIdEn">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\ReturnLastIdEn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.UpdateDoc">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\UpdateDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.UpdateEnrollee">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requests\UpdateEnrollee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSelectionCommittee.LogIn">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAAAAAAAAAAAAAAAAAAAgAAAAAAAAiAAAQAAAAAAA=</HashCode>
+      <FileName>Requests\LogIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

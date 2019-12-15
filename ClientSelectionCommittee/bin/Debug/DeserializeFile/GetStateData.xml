@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <StateData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <CountEnrolee>32</CountEnrolee>
+  <CountEnrolee>33</CountEnrolee>
   <CountEnroleeBigjet>0</CountEnroleeBigjet>
   <CountEnroleePay>0</CountEnroleePay>
   <PercentBrest>4</PercentBrest>
   <PercentGomel>2</PercentGomel>
   <PercentGrodno>2</PercentGrodno>
-  <PercentVitebsk>1</PercentVitebsk>
+  <PercentVitebsk>2</PercentVitebsk>
   <PercentMinsk>0</PercentMinsk>
   <PercentMogilevsk>1</PercentMogilevsk>
   <PercentMinskregion>2</PercentMinskregion>

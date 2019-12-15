@@ -696,4 +696,10 @@
     <Operation>Удалены данные абитуриента Краса Ирина</Operation>
     <CreateAt>2019-12-07T15:07:18.577</CreateAt>
   </HistorySend>
+  <HistorySend>
+    <Id>10045</Id>
+    <IdEnrollee>8066</IdEnrollee>
+    <Operation>Добавлены данные абитуриента Бурак Кирилл</Operation>
+    <CreateAt>2019-12-12T10:44:38.193</CreateAt>
+  </HistorySend>
 </ArrayOfHistorySend>

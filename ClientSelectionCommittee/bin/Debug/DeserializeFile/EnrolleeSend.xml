@@ -986,4 +986,35 @@
     <EnrolleeEmail />
     <EnrolleeAdditionalInformation>55</EnrolleeAdditionalInformation>
   </EnrolleeSend>
+  <EnrolleeSend>
+    <Id>8066</Id>
+    <IdDirectionTraining>1</IdDirectionTraining>
+    <NameLevelEducation>первая</NameLevelEducation>
+    <EnrolleeDateOfRegistration>2019-12-12T10:44:37.12</EnrolleeDateOfRegistration>
+    <EnrolleeFirstname>Кирилл</EnrolleeFirstname>
+    <EnrolleeLastname>Бурак</EnrolleeLastname>
+    <EnrolleePatronymic>Асламович</EnrolleePatronymic>
+    <EnrolleeSex>мужской</EnrolleeSex>
+    <EnrolleeDateOfBirth>2001-11-21T00:00:00</EnrolleeDateOfBirth>
+    <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+    <EnrolleePassportNumber>1231324</EnrolleePassportNumber>
+    <EnrolleePassportPersonalNumber>13142244</EnrolleePassportPersonalNumber>
+    <EnrolleePassportIssuedBy>Витедским ГОВД</EnrolleePassportIssuedBy>
+    <EnrolleeDateOfIssue>2015-10-12T00:00:00</EnrolleeDateOfIssue>
+    <EnrolleeDateExpiry>2025-10-12T00:00:00</EnrolleeDateExpiry>
+    <EnrolleeAddress>Витебск</EnrolleeAddress>
+    <EnrolleePostcode>21332</EnrolleePostcode>
+    <EnrolleePhoneNumber>3423132</EnrolleePhoneNumber>
+    <EnrolleeEducation>среднее</EnrolleeEducation>
+    <EnrolleeLastPlaceOfStudy>Витебская СШ №12</EnrolleeLastPlaceOfStudy>
+    <EnrolleeAddressLastPlaceOfStudy>Витебск</EnrolleeAddressLastPlaceOfStudy>
+    <EnrolleeGraduationDate>2017-10-12T00:00:00</EnrolleeGraduationDate>
+    <EnrolleeNumberCertificateOrDiploma>123424</EnrolleeNumberCertificateOrDiploma>
+    <EnrolleeAverageGradeOfCertificateOrDiploma>45</EnrolleeAverageGradeOfCertificateOrDiploma>
+    <EnrolleeScoreOfTheFirstEntranceTest>45</EnrolleeScoreOfTheFirstEntranceTest>
+    <EnrolleeScoreOfTheSecondEntranceTest>54</EnrolleeScoreOfTheSecondEntranceTest>
+    <EnrolleeScoreOfTheThirdEntranceTest>23</EnrolleeScoreOfTheThirdEntranceTest>
+    <EnrolleeEmail />
+    <EnrolleeAdditionalInformation />
+  </EnrolleeSend>
 </ArrayOfEnrolleeSend>

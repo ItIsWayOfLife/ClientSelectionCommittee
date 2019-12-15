@@ -201,7 +201,7 @@
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.выходToolStripMenuItem.Text = "Экспорт  в Excel";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.ВыходToolStripMenuItem_Click);
             // 
@@ -232,14 +232,14 @@
             // оПрограммеToolStripMenuItem
             // 
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
-            this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.оПрограммеToolStripMenuItem.Text = "О программе";
             this.оПрограммеToolStripMenuItem.Click += new System.EventHandler(this.ОПрограммеToolStripMenuItem_Click);
             // 
             // оРазработчикеToolStripMenuItem
             // 
             this.оРазработчикеToolStripMenuItem.Name = "оРазработчикеToolStripMenuItem";
-            this.оРазработчикеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.оРазработчикеToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.оРазработчикеToolStripMenuItem.Text = "О разработчике";
             this.оРазработчикеToolStripMenuItem.Click += new System.EventHandler(this.ОРазработчикеToolStripMenuItem_Click);
             // 
